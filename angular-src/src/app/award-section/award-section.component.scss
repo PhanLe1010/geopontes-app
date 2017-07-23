@@ -1,17 +1,28 @@
 section{
-  background: white;
-  text-align: center;
-  padding-top: 15vh;
-  padding-bottom: 20vh;
-  .container{
-    padding-top: 20px;
-    margin-top: auto;
-    margin-bottom: auto;
-    .row{
+  .outsideContainer{
+    z-index:10;
+    background: rgba(128, 127, 255, 0.6);
+    text-align: center;
+    padding-top: 15vh;
+    padding-bottom: 20vh;
+    height: 100%;
+    width: 100%;
+    .container{
+      background: transparent;
+      h2{color: white;}
       padding-top: 20px;
+      margin-top: auto;
+      margin-bottom: auto;
+      .row{
+    
+          padding-top: 20px;
+      }
+    }
+    a{
+  
+      margin-top: 20px;
     }
   }
-  a{
-    margin-top: 20px;
-  }
+
 }
+

@@ -5,6 +5,8 @@ import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 import {HomeComponent} from './home/home.component' ;
 import {ProgramsComponent} from './programs/programs.component' ;
+import {ProgramTopComponent} from './programTop/programTop.component' ;
+import {FirstProgramComponent} from './FirstProgram/FirstProgram.component' ;
 import {ContactComponent} from './contact/contact.component' ;
 import {DonationComponent} from './donation/donation.component' ;
 import { AppComponent } from './app.component';
@@ -14,12 +16,16 @@ import { AwardSectionComponent } from './award-section/award-section.component';
 import { MissonSectionComponent } from './misson-section/misson-section.component';
 import { InvesterSectionComponent } from './invester-section/invester-section.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
+import { AboutIntroComponent } from './about-intro/about-intro.component';
+import { AboutFirstColumnComponent } from './about-first-column/about-first-column.component';
 
 const appRoutes: Routes = [
   {path: "", component: HomeComponent},
   {path: "programs", component: ProgramsComponent},
   {path: "contact", component: ContactComponent},
-  {path: "donation", component: DonationComponent}
+  {path: "donation", component: DonationComponent},
+  {path: "about", component: AboutComponent}
 ]
 
 
@@ -30,12 +36,17 @@ const appRoutes: Routes = [
     SloganSectionComponent,
     HomeComponent,
     ProgramsComponent,
+    ProgramTopComponent,
+    FirstProgramComponent,
     ContactComponent,
     DonationComponent,
     AwardSectionComponent,
     MissonSectionComponent,
     InvesterSectionComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    AboutIntroComponent,
+    AboutFirstColumnComponent
   ],
   imports: [
     BrowserModule,

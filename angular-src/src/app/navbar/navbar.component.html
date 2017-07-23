@@ -1,27 +1,54 @@
-<nav class="navbar navbar-toggleable-md navbar-light fixed-top">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" [routerLink]= "['/']">Pontes Network</a>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item" [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
-        <a class="nav-link" [routerLink]= "['/']">Home</a>
-      </li>
-      <li class="nav-item" [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
-        <a class="nav-link" [routerLink]= "['/programs']">Program</a>
-      </li>
-      <li class="nav-item" [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
-        <a class="nav-link"[routerLink]= "['/donation']">Donation</a>
-      </li>
-      <li class="nav-item" [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
-        <a class="nav-link" [routerLink]= "['/contact']">Contact</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+<div id ="123456" class="fixed-top">
+  <nav>
+      <div class="container fixed-top" id="1234567">
+        <div class="nav-wrapper">
+          <a [routerLink]= "['/']" class="brand-logo" style="font-size: 1.3em"><img src="./assets/images/pontes_network_logo.png"></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars" aria-hidden="true" style= "font-size: 1.8em"></i></a>
+          <ul class="right hide-on-med-and-down">
+              <li [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
+                <a  class= "waves-effect waves-light" [routerLink]= "['/']">HOME</a>
+              </li>
+              <li  [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
+                <a  class= "waves-effect waves-light" [routerLink]= "['/programs']">PROGRAM</a>
+              </li>
+              <li  [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
+                <a class= "waves-effect waves-light" [routerLink]= "['/donation']">DONATION</a>
+              </li>
+              <li  [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
+                <a  class= "waves-effect waves-light" [routerLink]= "['/contact']">CONTACT</a>
+              </li>        
+              <li  [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
+                <a  class= "waves-effect waves-light" [routerLink]= "['/about']">ABOUT</a>
+              </li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+              <div class="background">
+                <img src="./assets/images/pontes_network_logo.png">
+              </div>
+              <li  [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
+                <a  class= "waves-effect waves-teal" [routerLink]= "['/']"><i class="fa fa-home" aria-hidden="true"></i>HOME</a>
+              </li>
+              <li  [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
+                <a  class= "waves-effect waves-teal" [routerLink]= "['/programs']"><i class="fa fa-rocket" aria-hidden="true"></i>PROGRAM</a>
+              </li>
+              <li  [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
+                <a class= "waves-effect waves-teal"  [routerLink]= "['/donation']"><i class="fa fa-heart" aria-hidden="true"></i>DONATION</a>
+              </li>
+              <li  [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
+                <a  class= "waves-effect waves-teal" [routerLink]= "['/contact']"><i class="fa fa-envelope" aria-hidden="true"></i>CONTACT</a>
+              </li>
+              <li  [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
+                <a  class= "waves-effect waves-teal" [routerLink]= "['/about']"><i class="fa fa-users" aria-hidden="true"></i>ABOUT</a>
+              </li>
+              
+              <div class="background">
+                <img src="https://dncache-mauganscorp.netdna-ssl.com/thumbseg/1395/1395465-bigthumbnail.jpg">
+              </div>
+              
+          </ul>
+        </div>   
+      </div>
+  </nav>
+
+</div>

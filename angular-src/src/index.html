@@ -8,7 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="">
+   <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/css/materialize.min.css">
 </head>
 <body>
 
@@ -100,7 +101,7 @@
     </style>
     <div id="loader-wrapper">
 			<div id="loader"></div>
-		</div>
+	</div>
   </app-root>
 
 
@@ -110,8 +111,26 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="./assets/js/wow.min.js"></script>
+  
+    <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="./assets/js/main.js"></script>
+  <script type="text/javascript" src="./assets/js/parallax.js"></script>
   <script>
-  new WOW().init();
+    new WOW().init();
+    $( document ).ready(function() {
+        $(".button-collapse").sideNav({
+             menuWidth: 250,
+             onOpen: function(el) { 
+                 $("#123456").removeClass("fixed-top");
+                 $("#1234567").removeClass("fixed-top");
+             },
+             onClose: function(el){
+                 $("#123456").addClass("fixed-top");
+                 $("#1234567").addClass("fixed-top");
+             }
+        });
+    });
   </script>
 
 </body>

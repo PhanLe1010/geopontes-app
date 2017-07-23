@@ -1,3 +1,56 @@
-.navbar.navbar-toggleable-md.navbar-light{
-    background-color: rgba(41, 144, 234, 1);
-  }
+
+nav{
+    background-color: rgba(41, 144, 234, 0.0);
+    -webkit-box-shadow: none !important;
+    box-shadow: none  !important;
+    .container{
+            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    }
+    transition: all 0.4s;
+    .background{
+        img{
+            width:100%;   
+        } 
+        margin-bottom: 30px;
+    }
+    .brand-logo{
+        img{
+            height:58px;   
+        } 
+    }
+    .side-nav{
+        padding-bottom: 0;
+    }
+    height: 50px;
+}
+
+
+.scrolled{
+    background: white;
+    height: 66px;
+}
+.linkScrolled{
+    color: #2990ea;
+}
+.containerScrolled{
+    border: none ! important;
+}
+
+a:hover,a:focus{
+   text-decoration:none;
+   color: #2990ea;
+}
+
+#mobile-demo{
+    a{
+        text-decoration: none;
+        color: #2990ea;
+    }
+
+}
+.active{
+    background: rgba(0, 0, 0, 0.3);
+    border: none !important;
+}
+
+    

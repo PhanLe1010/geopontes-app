@@ -1,0 +1,14 @@
+section{
+   background: url('./assets/images/mission.jpg');
+//   background: white;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  .mission-content{
+    background-color: rgba(41, 144, 234, 0.5);
+    padding-top: 30vh;
+    text-align: center;
+    color: white;
+    height: 100%;
+  }
+}

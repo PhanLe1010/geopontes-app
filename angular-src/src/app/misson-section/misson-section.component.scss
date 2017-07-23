@@ -1,13 +1,14 @@
 section{
-  background: url('./assets/images/mission.jpg');
-  height: 100vh;
+  // background: url('./assets/images/mission.jpg');
+  background: white;
   background-size: cover;
   background-position: center;
   .mission-content{
-    background-color: rgba(41, 144, 234, 0.5);
-    padding-top: 30vh;
+    // background-color: rgba(41, 144, 234, 0.5);
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
-    color: white;
+    color: black;
     height: 100%;
   }
 }
