@@ -15,29 +15,27 @@
       </div>
       <form [formGroup] = "loginForm" (ngSubmit) = "onSubmit()" >
             <div class="modal-body">
-            
+
               <div class="row">
                 <div class="input-field col s12">
                   <i class="prefix fa fa-user-circle" aria-hidden="true"></i>
-                  <input id="username" 
-                         type="text" 
-                         formControlName="username"
-                         data-error = "Please enter admin account">
-                  <label for="username"> Admin account</label>
+                  <input id="username"
+                         type="text"
+                         formControlName="username">
+                  <label for="username" data-error = "Please enter admin account">Admin account</label>
                 </div>
               </div>
-              
+
               <div class="row">
                 <div class="input-field col s12">
                   <i class="prefix fa fa-key" aria-hidden="true"></i>
-                  <input id="password" 
-                         type="password" 
-                         formControlName ="password"
-                         data-error = "Please enter password">
-                  <label for="password">        Password</label>
+                  <input id="password"
+                         type="password"
+                         formControlName ="password">
+                  <label for="password"  data-error = "Please enter password">Password</label>
                 </div>
               </div>
-            
+
           </div>
           <div class="modal-footer">
             <button (click) = "onLogin()" type="submit" class="waves-effect waves-light btn btn-flat btn-outline-primary" ><i *ngIf="show" style ="font-size: 0.9em"class="fa fa-refresh fa-spin"></i> Login</button>
@@ -47,5 +45,3 @@
     </div>
   </div>
 </div>
- 
- 

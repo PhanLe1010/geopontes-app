@@ -6189,37 +6189,37 @@ textarea.materialize-textarea:focus.valid + label:after, .select-wrapper.valid +
           transform: translateY(9px);
 }
 
-input:not([type]).invalid + label:after,
-input:not([type]):focus.invalid + label:after,
-input[type=text]:not(.browser-default).invalid + label:after,
-input[type=text]:not(.browser-default):focus.invalid + label:after,
-input[type=password]:not(.browser-default).invalid + label:after,
-input[type=password]:not(.browser-default):focus.invalid + label:after,
-input[type=email]:not(.browser-default).invalid + label:after,
-input[type=email]:not(.browser-default):focus.invalid + label:after,
-input[type=url]:not(.browser-default).invalid + label:after,
-input[type=url]:not(.browser-default):focus.invalid + label:after,
-input[type=time]:not(.browser-default).invalid + label:after,
-input[type=time]:not(.browser-default):focus.invalid + label:after,
-input[type=date]:not(.browser-default).invalid + label:after,
-input[type=date]:not(.browser-default):focus.invalid + label:after,
-input[type=datetime]:not(.browser-default).invalid + label:after,
-input[type=datetime]:not(.browser-default):focus.invalid + label:after,
-input[type=datetime-local]:not(.browser-default).invalid + label:after,
-input[type=datetime-local]:not(.browser-default):focus.invalid + label:after,
-input[type=tel]:not(.browser-default).invalid + label:after,
-input[type=tel]:not(.browser-default):focus.invalid + label:after,
-input[type=number]:not(.browser-default).invalid + label:after,
-input[type=number]:not(.browser-default):focus.invalid + label:after,
-input[type=search]:not(.browser-default).invalid + label:after,
-input[type=search]:not(.browser-default):focus.invalid + label:after,
-textarea.materialize-textarea.invalid + label:after,
-textarea.materialize-textarea:focus.invalid + label:after, .select-wrapper.invalid + label:after {
+input:not([type]).ng-invalid.ng-touched + label:after,
+input:not([type]):focus.ng-invalid.ng-touched + label:after,
+input[type=text]:not(.browser-default).ng-invalid.ng-touched + label:after,
+input[type=text]:not(.browser-default):focus.ng-invalid.ng-touched + label:after,
+input[type=password]:not(.browser-default).ng-invalid.ng-touched + label:after,
+input[type=password]:not(.browser-default):focus.ng-invalid.ng-touched + label:after,
+input[type=email]:not(.browser-default).ng-invalid.ng-touched + label:after,
+input[type=email]:not(.browser-default):focus.ng-invalid.ng-touched + label:after,
+input[type=url]:not(.browser-default).ng-invalid.ng-touched + label:after,
+input[type=url]:not(.browser-default):focus.ng-invalid.ng-touched + label:after,
+input[type=time]:not(.browser-default).ng-invalid.ng-touched + label:after,
+input[type=time]:not(.browser-default):focus.ng-invalid.ng-touched + label:after,
+input[type=date]:not(.browser-default).ng-invalid.ng-touched + label:after,
+input[type=date]:not(.browser-default):focus.ng-invalid.ng-touched + label:after,
+input[type=datetime]:not(.browser-default).ng-invalid.ng-touched + label:after,
+input[type=datetime]:not(.browser-default):focus.ng-invalid.ng-touched + label:after,
+input[type=datetime-local]:not(.browser-default).ng-invalid.ng-touched + label:after,
+input[type=datetime-local]:not(.browser-default):focus.ng-invalid.ng-touched + label:after,
+input[type=tel]:not(.browser-default).ng-invalid.ng-touched + label:after,
+input[type=tel]:not(.browser-default):focus.ng-invalid.ng-touched + label:after,
+input[type=number]:not(.browser-default).ng-invalid.ng-touched + label:after,
+input[type=number]:not(.browser-default):focus.ng-invalid.ng-touched + label:after,
+input[type=search]:not(.browser-default).ng-invalid.ng-touched + label:after,
+input[type=search]:not(.browser-default):focus.ng-invalid.ng-touched + label:after,
+textarea.materialize-textarea.ng-invalid.ng-touched + label:after,
+textarea.materialize-textarea:focus.ng-invalid.ng-touched + label:after, .select-wrapper.ng-invalid.ng-touched + label:after {
   content: attr(data-error);
   color: #F44336;
   opacity: 1;
-  -webkit-transform: translateY(9px);
-          transform: translateY(9px);
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
 }
 
 input:not([type]) + label:after,
