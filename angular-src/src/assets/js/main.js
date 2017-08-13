@@ -7,3 +7,4 @@ $(function () {
     $("nav a").toggleClass('linkScrolled', isScrolled);
   });
 });
+

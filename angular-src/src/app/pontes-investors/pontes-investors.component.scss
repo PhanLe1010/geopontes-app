@@ -1,5 +1,5 @@
-.investers {
-
+.investors{
+    background: white;
     padding: 50px 0 80px;
     text-align: center;
     b, h2,h4 {
@@ -11,12 +11,7 @@
 
         color: #737373;
     }
-    img {
-
-        height: 150px;
-        width: 150px;
-        margin-top: 80px;
-    }
+  
     i {
 
         height: 30px;
@@ -33,3 +28,24 @@
    }
 
 }
+
+  img {
+
+        height: 150px;
+        width: 150px;
+        margin-top: 80px;
+    }
+
+.header {
+      
+      background-color:rgba(41, 144, 234, 0.5);
+  background-size: cover;
+  background-position: center;
+  
+     padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    height: 100%;
+}
+

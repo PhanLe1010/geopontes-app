@@ -1,0 +1,32 @@
+section{
+  
+  height: 40vh;
+    background: url("./assets/images/about-intro.jpg");
+  background-size: cover;
+  background-position: center;
+  .aboutIntro{
+    // background-color: rgba(41, 144, 234, 0.5);
+    padding-top: 20vh;
+    text-align: center;
+    color: white;
+        text-align: center;
+
+    color: white;
+    height: 100%;
+    h2{
+      font-weight: 400;
+    }
+  }
+  
+  // height: 100%;
+  // background: url("./assets/images/about-intro.jpg");
+  // background-size: cover;
+  // background-position: center;
+  // .aboutIntro{
+  //   background-color: rgba(41, 144, 234, 0.5);
+  //   padding-top: 20vh;
+  //   text-align: center;
+  //   color: white;
+  //   height: 100%;
+  // }
+}

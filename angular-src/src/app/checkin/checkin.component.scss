@@ -1,0 +1,30 @@
+section{
+   background: url('./assets/images/mission.jpg');
+//   background: white;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  .checkin-content{
+    background-color: rgba(41, 144, 234, 0.5);
+    padding-top: 20vh;
+    text-align: center;
+    color: white;
+    height: 100%;
+  }
+}
+
+#letter {
+    
+      background: white;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+    
+    .letter-content {
+        
+    padding-top: 15vh;
+    text-align: left;
+    color: black;
+    height: 100%;
+    }
+}

@@ -1,0 +1,94 @@
+section{
+   background: url('./assets/images/mission.jpg');
+
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  
+  .mission-content-left{
+    background-color: rgba(41, 144, 234, 0.5);
+    padding-top: 10vh;
+    padding-right: 25vh;
+    text-align: left;
+    color: white;
+    height: 100%;
+  }
+  
+  .mission-content-right {
+    background-color: rgba(41, 144, 234, 0.5);
+    padding-top: 10vh;
+    padding-left: 25vh;
+    text-align: left;
+    color: white;
+    height: 100%;   
+  }
+}
+img{
+  width:100%;
+}
+
+#program1{
+  background: #071b26 !important;
+}
+#program3{
+  background: #071b26 !important;
+}
+
+.morePrograms{
+    background: white;
+    padding: 50px 0 80px;
+    text-align: center;
+    b, h2,h4 {
+
+        margin: 20px 0 20px;
+        color: #4c4c4c;
+    }
+    p {
+
+        color: #737373;
+    }
+    img {
+
+        height: 150px;
+        width: 150px;
+        margin-top: 80px;
+    }
+    i {
+
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        font-size: 17px;
+        border-radius: 50%;
+        background-color: #a0db8e;
+        color: #fff;
+    }
+    a:hover i {
+
+       background-color: #709963;
+   }
+
+}
+
+#Header {
+   background: white;
+  background-size: cover;
+  background-position: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: black;
+    height: 20%;
+}
+
+.head {
+    
+  //   background: white;
+  // background-size: cover;
+  // background-position: center;
+  //   padding-top: 60px;
+  //   // padding-bottom: 50px;
+  //   text-align: center;
+  //   color: black;
+  //   height: 20%;
+}

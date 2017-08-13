@@ -8,7 +8,6 @@ import { Router, NavigationEnd } from '@angular/router';
 })
 
 export class AppComponent {
-  title = 'App Work!'
   constructor(private router: Router) { }
 
   ngOnInit() {

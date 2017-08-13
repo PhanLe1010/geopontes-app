@@ -7,19 +7,22 @@
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars" aria-hidden="true" style= "font-size: 1.8em"></i></a>
           <ul class="right hide-on-med-and-down">
               <li [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
-                <a  class= "waves-effect waves-light" [routerLink]= "['/']">HOME</a>
+                <a id ="01" class= "waves-effect waves-light" [routerLink]= "['/']">HOME</a>
               </li>
               <li  [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
                 <a  class= "waves-effect waves-light" [routerLink]= "['/programs']">PROGRAM</a>
               </li>
               <li  [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
                 <a class= "waves-effect waves-light" [routerLink]= "['/donation']">DONATION</a>
+              </li>             
+              <li  [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
+                <a class= "waves-effect waves-light" [routerLink]= "['/checkin']">CHECK IN</a>
               </li>
               <li  [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
                 <a  class= "waves-effect waves-light" [routerLink]= "['/contact']">CONTACT</a>
               </li>        
               <li  [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
-                <a  class= "waves-effect waves-light" [routerLink]= "['/about']">ABOUT</a>
+                <a  class= "waves-effect waves-light" [routerLink]= "['/about']">ABOUT US</a>
               </li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
@@ -39,7 +42,7 @@
                 <a  class= "waves-effect waves-teal" [routerLink]= "['/contact']"><i class="fa fa-envelope" aria-hidden="true"></i>CONTACT</a>
               </li>
               <li  [routerLinkActive] = "['active']" [routerLinkActiveOptions] = "{exact:true}">
-                <a  class= "waves-effect waves-teal" [routerLink]= "['/about']"><i class="fa fa-users" aria-hidden="true"></i>ABOUT</a>
+                <a  class= "waves-effect waves-teal" [routerLink]= "['/about']"><i class="fa fa-users" aria-hidden="true"></i>ABOUT US</a>
               </li>
               
               <div class="background">

@@ -1,0 +1,48 @@
+.listDirectors{
+    background: white;
+    // padding: 50px 0 80px;
+    text-align: center;
+    b, h2,h4 {
+
+        margin: 20px 0 20px;
+        color: #4c4c4c;
+    }
+    p {
+
+        color: #737373;
+    }
+    img {
+
+        height: 150px;
+        width: 150px;
+        margin-top: 80px;
+    }
+    i {
+
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        font-size: 17px;
+        border-radius: 50%;
+        background-color: #a0db8e;
+        color: #fff;
+    }
+    a:hover i {
+
+       background-color: #709963;
+   }
+
+}
+
+.header {
+      
+//       background-color:rgb(128, 129, 130);
+//   background-size: cover;
+//   background-position: center;
+  
+    padding-top: 100px;
+    text-align: center;
+    color: black;
+    height: 100%;
+}
+

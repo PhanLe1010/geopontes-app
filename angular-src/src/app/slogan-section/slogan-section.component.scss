@@ -1,10 +1,85 @@
 section{
   height: 100vh;
   .slogan{
-    background-color: rgba(41, 144, 234, 0.5);
-    padding-top: 45vh;
-    text-align: center;
-    color: white;
-    height: 100%;
+    // background-color: rgba(41, 144, 234, 0.5); <!--data-image-src="./assets/images/slogan.jpg" -->
+    padding-top: 30vh;
+    div{
+      text-align: center;
+      color: White;
+      height: 100%;
+      h1{
+        font-size: 3.6em;        
+      }
+      p{
+        padding-top: 10px;
+        font-family: 'Bad Script', cursive;
+        font-size: 1.9em;
+      }
+      // background: rgba(0, 0, 0, 0.5);
+    }
+  }
+  
+
+  .downArrow{
+  	position: absolute;
+  	bottom: 5%;
+  	left: 50%;
+  	color: white;
+  	opacity: 1;
+  }
+  .bounce {
+  	-moz-animation: bounce 3s infinite;
+  	-webkit-animation: bounce 3s infinite;
+  	animation: bounce 3s infinite;
+  }
+  @-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -moz-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(-30px);
+      -ms-transform: translateY(-30px);
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -moz-transform: translateY(-15px);
+      -ms-transform: translateY(-15px);
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
   }
 }
+
+
