@@ -9,9 +9,11 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 })
 export class AuthenticationComponent implements OnInit {
   loginForm: FormGroup;
-  show: boolean = false;
-  
-  
+  loadingIcon: boolean = false;
+  successLogin: boolean = false;
+  isSubmit: boolean = false;
+
+
   constructor() { }
 
   ngOnInit() {
@@ -20,15 +22,18 @@ export class AuthenticationComponent implements OnInit {
       password: new FormControl(null, Validators.required),
     });
   }
-  
+
   onSubmit(){
     console.log(this.loginForm);
+    this.successLogin = false;
+    this.isSubmit = true;
+    this.loadingIcon = false;
   }
   onLogin(){
-    this.show = true;
+    this.loadingIcon = true;
   }
-  
+
   onLogout(){
-    
+
   }
 }

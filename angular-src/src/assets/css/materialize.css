@@ -6218,6 +6218,9 @@ textarea.materialize-textarea:focus.ng-invalid.ng-touched + label:after, .select
   content: attr(data-error);
   color: #F44336;
   opacity: 1;
+  position: absolute !important;
+  top: 100% !important;
+  left: 0 !important;
   -webkit-transform: translateY(-30px);
           transform: translateY(-30px);
 }

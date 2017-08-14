@@ -1,6 +1,9 @@
 var express = require("express");
-var Router = express.Router();
+var router = express.Router();
 
+router.get('/get_letter', function(req, res, next){
+  res.send('you reach the get letter route')
+  next();
+})
 
-
-module.exports = Router;
+module.exports = router;

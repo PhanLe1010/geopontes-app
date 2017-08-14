@@ -54,8 +54,17 @@ input.ng-touched.ng-invalid{
    .input-field input:focus + label {
      color: #0275d8 !important;
    }
+   /* label focus color */
+   .input-field textarea:focus + label {
+     color: #0275d8 !important;
+   }
    /* label underline focus color */
    .input-field input:focus {
+     border-bottom: 1px solid #0275d8 !important;
+     box-shadow: 0 1px 0 0 #0275d8 !important;
+   }
+   /* label underline focus color */
+   .input-field textarea:focus {
      border-bottom: 1px solid #0275d8 !important;
      box-shadow: 0 1px 0 0 #0275d8 !important;
    }

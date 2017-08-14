@@ -1,3 +1,35 @@
+.background-picture{
+  width: 100%;
+  background: url('./assets/images/contact-page.jpg');
+  background-size: cover;
+  background-repeat: none;
+  text-align: center;
+  .filter{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(41, 144, 234, 0.6);
+
+    h2{
+      padding-top: 100px;
+      color: white;
+    }
+
+    .social{
+      color: white;
+      font-size: 20px;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      padding: 5px;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      margin-right: 5px;
+    }
+  }
+}
+
 .contact{
   text-align: center;
+  padding-top: 40px
 }

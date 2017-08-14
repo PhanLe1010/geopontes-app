@@ -29,6 +29,9 @@ import { PontesAwardsComponent } from './pontes-awards/pontes-awards.component';
 import { PontesInvestorsComponent } from './pontes-investors/pontes-investors.component';
 import { routing } from './app.routing';
 import { AuthenticationComponent } from './auth/authentication/authentication.component';
+import { ContactFormComponent } from './contact/contact-form/contact-form.component';
+import { ContactMapComponent } from './contact/contact-map/contact-map.component';
+import { ContactMessagesComponent } from './contact/contact-messages/contact-messages.component';
 // import { ParallaxDirective } from './directives/parallax.directive';
 
 
@@ -57,6 +60,9 @@ import { AuthenticationComponent } from './auth/authentication/authentication.co
     PontesAwardsComponent,
     PontesInvestorsComponent,
     AuthenticationComponent,
+    ContactFormComponent,
+    ContactMapComponent,
+    ContactMessagesComponent,
     // ParallaxDirective
   ],
   imports: [

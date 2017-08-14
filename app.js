@@ -34,6 +34,9 @@ const express = require('express'),
 var	app		= express();
 var PORT = process.env.PORT || 3000;
 var indexRoutes = require("./routes/indexRoutes");
+var contactMessage = require("./routes/contact_message");
+var letter = require("./routes/letter");
+var user = require("./routes/user");
 
 // Connect To Database
 mongoose.connect(config.database);
@@ -46,10 +49,7 @@ mongoose.connection.on('error', (err) => {
   console.log('Database error: '+err);
 });
 
-app.get('*', function (req, res) {
-  res.sendFile(path.join(__dirname, 'views/index.html'));
-  console.log("someone visited some route of the app!")
-})
+
 //CORS middleware
 app.use(cors());
 //body-parser middleware
@@ -60,14 +60,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static('images'));
 
 
-
+app.use(indexRoutes);
+app.use(contactMessage);
+app.use(letter);
+app.use(user);
 
 //When the users request to any route, we will pass the controler to our Agular app
-app.get('*', function (req, res) {
-  res.sendFile(path.join(__dirname, 'views/index.html'));
-  console.log("someone visited some route of the app!")
+app.use('*', function (req, res) {
+  res.sendFile(path.join(__dirname, 'public/index.html'));
 })
-app.use(indexRoutes);
+
 
 //Start server
 app.listen(PORT, function(){
