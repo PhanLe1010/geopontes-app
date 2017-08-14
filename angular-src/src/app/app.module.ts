@@ -32,6 +32,7 @@ import { AuthenticationComponent } from './auth/authentication/authentication.co
 import { ContactFormComponent } from './contact/contact-form/contact-form.component';
 import { ContactMapComponent } from './contact/contact-map/contact-map.component';
 import { ContactMessagesComponent } from './contact/contact-messages/contact-messages.component';
+import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
 // import { ParallaxDirective } from './directives/parallax.directive';
 
 
@@ -63,6 +64,7 @@ import { ContactMessagesComponent } from './contact/contact-messages/contact-mes
     ContactFormComponent,
     ContactMapComponent,
     ContactMessagesComponent,
+    ImageCarouselComponent,
     // ParallaxDirective
   ],
   imports: [

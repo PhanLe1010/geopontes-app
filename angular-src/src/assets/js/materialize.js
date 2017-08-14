@@ -2676,7 +2676,7 @@ if (jQuery) {
           });
           $tabs_wrapper = $tabs_content.wrapAll('<div class="tabs-content carousel"></div>');
           $tabs_content.css('display', '');
-          $('.tabs-content.carousel').carousel({
+          $('.tabs-content.carousel').materialCarousel({
             fullWidth: true,
             noWrap: true,
             onCycleTo: function (item) {
@@ -2739,7 +2739,7 @@ if (jQuery) {
           // Swap content
           if (options.swipeable) {
             if ($tabs_content.length) {
-              $tabs_content.carousel('set', index, function () {
+              $tabs_content.materialCarousel('set', index, function () {
                 if (typeof options.onShow === "function") {
                   options.onShow.call($this[0], $content);
                 }
@@ -9803,7 +9803,7 @@ if (jQuery) {
     }
   };
 
-  $.fn.carousel = function (methodOrOptions) {
+  $.fn.materialCarousel = function (methodOrOptions) {
     if (methods[methodOrOptions]) {
       return methods[methodOrOptions].apply(this, Array.prototype.slice.call(arguments, 1));
     } else if (typeof methodOrOptions === 'object' || !methodOrOptions) {

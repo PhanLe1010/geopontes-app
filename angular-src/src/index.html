@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.png">
 
-  
+
   <link href="https://fonts.googleapis.com/css?family=Dosis|Bad+Script" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
      <!-- Compiled and minified CSS -->
@@ -115,17 +115,18 @@
   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
   crossorigin="anonymous"></script>
   <script src="./assets/js/wow.min.js"></script>
-  
-    <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/js/materialize.min.js"></script>
+
+  <!-- Compiled and minified JavaScript -->
+<script src="./assets/js/materialize.js"></script>
   <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+
 
   <script>
     new WOW().init();
     $( document ).ready(function() {
         $(".button-collapse").sideNav({
              menuWidth: 250,
-             onOpen: function(el) { 
+             onOpen: function(el) {
                  $("#123456").removeClass("fixed-top");
                  $("#1234567").removeClass("fixed-top");
              },
@@ -133,6 +134,9 @@
                  $("#123456").addClass("fixed-top");
                  $("#1234567").addClass("fixed-top");
              }
+        });
+        $('.carousel').materialCarousel({
+          duration: 100
         });
 
     });
