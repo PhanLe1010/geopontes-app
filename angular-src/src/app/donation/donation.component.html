@@ -1,6 +1,8 @@
 <title>Donation - Pontes Network</title>
 
 <p style="margin-top: 90px" class= "text-center">
-    
-  donation works!
+
+  <a [routerLink]="['/about']" fragment="pontesNetwork" (click)="onAnchorClick()" style= "color: black">Anchor</a>
+  <br>
+  <a [routerLink]="['/about']" fragment="pontesNetwork" (click)="gotoHashtag('pontesNetwork')" style= "color: black">Jump to Award anchor </a>
 </p>
