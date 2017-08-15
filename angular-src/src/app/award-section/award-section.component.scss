@@ -15,16 +15,19 @@ section{
       margin-top: auto;
       margin-bottom: auto;
       .row{
-    
           padding-top: 20px;
+          @media screen and (min-width: 992px) {
+            .card{
+              height: 165px;
+            }
+          }
       }
+
     }
     a{
-  
+
       margin-top: 20px;
     }
   }
 
 }
-
-
