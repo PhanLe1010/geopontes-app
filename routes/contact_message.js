@@ -2,6 +2,25 @@ var express = require('express');
 var router = express.Router();
 var ContactMessage = require("../models/contactMessage");
 
+// API for getting contact messages
+router.get('/contact_message', function(req, res, next){
+  ContactMessage.find()
+                .exec(function(err, messages){
+                  if(err){
+                    return res.status(500).json({
+                      title: "Cannot get messages! An error occurred.",
+                      error: err
+                    });
+                  }else{
+                    res.status(201).json({
+                      title: "successfully get messages",
+                      obj: messages
+                    })
+                  }
+                })
+})
+
+// API for posting contact message
 router.post('/contact_message', function(req, res, next){
   var contactMessage = new ContactMessage({
     name: req.body.name,

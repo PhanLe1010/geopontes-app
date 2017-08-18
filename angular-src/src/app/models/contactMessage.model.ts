@@ -1,7 +1,7 @@
 export class ContactMessage{
-    constructor(private name: string, 
-                private email: string, 
-                private subject: string, 
-                private message: string,
-                private date: Date){}
+    constructor(public name: string,
+                public email: string,
+                public subject: string,
+                public message: string,
+                public date?: Date){}
 }

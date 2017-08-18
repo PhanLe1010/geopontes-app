@@ -1,35 +1,60 @@
+
+<!-- Notification -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h5>{{notificationOfSendingContactMessage}}</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="waves-effect waves-light btn-flat btn-sm btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--  The contact form -->
 <div style="text-align: center">
   <h3 style="color: #2990ea">Leave A Message</h3>
-    <form style="padding-top: 30px">
+    <form [formGroup] ="contactForm" (ngSubmit)="onSubmit()" style="padding-top: 30px">
       <div class="row">
-        <div class="input-field col-lg-6">
+        <div class="input-field col col-lg-6 col-sm-12 col-12">
           <i class="fa fa-user-o prefix" aria-hidden="true"></i>
-          <input id="name" type="text">
-          <label for="name" style="padding-left: 15px">Your Name</label>
+          <input id="name"
+                 type="text"
+                 formControlName = "name">
+          <label for="name" data-error = "Please enter your name" >Your Name</label>
         </div>
-        <div class="input-field col-lg-6">
+        <div class="input-field col col-lg-6 col-sm-12 col-12">
           <i class="fa fa-envelope-o prefix" aria-hidden="true"></i>
-          <input id="email" type="email">
-          <label for="email" style="padding-left: 15px">Your Email</label>
+          <input id="email"
+                 type="text"
+                 formControlName = "email">
+          <label for="email" data-error = "Please enter an valid email" >Your Email</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col">
           <i class="fa fa-bookmark-o prefix" aria-hidden="true"></i>
-          <input id="subject" type="text">
-          <label for="subject">Subject</label>
+          <input id="subject"
+                 type="text"
+                 formControlName = "subject">
+          <label for="subject" data-error = "Please enter a subject">Subject</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col">
           <i class="fa fa-pencil-square-o prefix" aria-hidden="true"></i>
-          <textarea id="textarea1" class="materialize-textarea"></textarea>
-          <label for="textarea1">Textarea</label>
+          <textarea id="textarea1"
+                    class="materialize-textarea"
+                    formControlName = "message"></textarea>
+          <label for="textarea1" data-error = "Please enter your message">Textarea</label>
         </div>
       </div>
-      <button
+      <button [disabled]="!contactForm.valid"
               type="submit"
               class="waves-effect waves-light btn btn-flat btn-outline-primary" >
+              <i *ngIf="loadingIcon" style ="font-size: 0.8em"class="fa fa-refresh fa-spin"></i>
               Send
       </button>
     </form>

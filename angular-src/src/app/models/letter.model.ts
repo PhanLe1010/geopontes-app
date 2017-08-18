@@ -1,6 +1,9 @@
+import { Comment } from './comment.model';
 export class Letter{
-    constructor(private title: string,
-                private content: string,
-                private signature: string,
-                private date: Date){}
+    constructor(public title: string,
+                public content: string,
+                public signature: string,
+                public date?: Date,
+                public comments?: Comment[],
+                public _id?: string){}
 }

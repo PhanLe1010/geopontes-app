@@ -1,17 +1,19 @@
 import { Component, OnInit, AfterViewChecked } from '@angular/core';
 import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 import { Subscription } from 'rxjs';
+import { ContactMessageService } from './contact/contactMessage.service';
 
 @Component( {
     selector: 'app-root',
     templateUrl: './app.component.html',
-    styleUrls: ['./app.component.scss']
+    styleUrls: ['./app.component.scss'],
+    providers: [ContactMessageService]
 } )
 export class AppComponent implements OnInit, AfterViewChecked {
 
   private scrollExecuted: boolean = false;
 
-  constructor( private activatedRoute: ActivatedRoute, private router: Router ) {}
+  constructor( private contactMessageService: ContactMessageService, private activatedRoute: ActivatedRoute, private router: Router ) {}
 
   ngOnInit() {
         this.router.events.subscribe((evt) => {

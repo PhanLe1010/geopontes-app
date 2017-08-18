@@ -1,4 +1,4 @@
-section{
+.section-header{
    background: url('./assets/images/mission.jpg');
 //   background: white;
   height: 40vh;
@@ -14,15 +14,14 @@ section{
 }
 
 #letter {
-    
-      background: white;
-  height: 80vh;
+
+  background: white;
   background-size: cover;
   background-position: center;
-    
+
     .letter-content {
-        
-    padding-top: 15vh;
+
+    padding-top: 50px;
     text-align: left;
     color: black;
     height: 100%;

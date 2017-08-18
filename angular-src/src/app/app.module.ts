@@ -33,6 +33,9 @@ import { ContactFormComponent } from './contact/contact-form/contact-form.compon
 import { ContactMapComponent } from './contact/contact-map/contact-map.component';
 import { ContactMessagesComponent } from './contact/contact-messages/contact-messages.component';
 import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
+import { CommentComponent } from './comment/comment.component';
+import { LetterComponent } from './checkin/letter/letter.component';
+import { NewLetterFromComponent } from './checkin/new-letter-from/new-letter-from.component';
 // import { ParallaxDirective } from './directives/parallax.directive';
 
 
@@ -65,6 +68,9 @@ import { ImageCarouselComponent } from './image-carousel/image-carousel.componen
     ContactMapComponent,
     ContactMessagesComponent,
     ImageCarouselComponent,
+    CommentComponent,
+    LetterComponent,
+    NewLetterFromComponent
     // ParallaxDirective
   ],
   imports: [

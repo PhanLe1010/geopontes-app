@@ -1,0 +1,123 @@
+<!-- Notification -->
+<div class="modal fade" id="letterNotification" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h5>{{notificationOfSendingLetter}}</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="waves-effect waves-light btn-flat btn-sm btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Add a new letter Form -->
+
+            <form [formGroup] ="newLetterForm" (ngSubmit)="onSubmit()" style="padding-top: 30px">
+              <div class="row">
+                <div class="input-field col s12 col-12">
+                  <i class="fa fa-bookmark-o prefix" aria-hidden="true"></i>
+                  <input id="title"
+                         type="text"
+                         formControlName = "title">
+                  <label for="name" data-error = "Please enter the title" >Title</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col">
+                  <i class="fa fa-pencil-square-o prefix" aria-hidden="true"></i>
+                  <textarea id="textarea1"
+                            class="materialize-textarea"
+                            formControlName = "content"></textarea>
+                  <label for="textarea1" data-error = "Please enter content">Content</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12 col-12">
+                  <i class="fa fa-user-o prefix" aria-hidden="true"></i>
+                  <input id="signature"
+                         type="text"
+                         formControlName = "signature">
+                  <label for="name" data-error = "Please enter your signature" >Signature</label>
+                </div>
+              </div>
+              <div class="row" style="text-align: center">
+                <div class="col-12">
+                  <button
+                          [disabled]="!newLetterForm.valid"
+                          type="submit"
+                          class="waves-effect waves-light btn btn-flat btn-outline-primary" >
+                          <i *ngIf="loadingIcon" style ="font-size: 0.8em"class="fa fa-refresh fa-spin"></i>
+                          Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+
+
+            <!-- Edit letter Form -->
+            <!-- Modal -->
+            <div class="modal fade" id="editLetterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h6 class="modal-title" id="exampleModalLabel" >Edit Letter</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+              <!--Edit Form -->
+              <form [formGroup] ="newLetterForm" (ngSubmit)="onSubmit()" style="padding-top: 30px">
+                    <div class="modal-body">
+                        <div class="row">
+                          <div class="input-field col s12 col-12">
+                            <i class="fa fa-bookmark-o prefix" aria-hidden="true"></i>
+                            <input id="title"
+                                   type="text"
+                                   [ngModel] = "letter?.title"
+                                   formControlName = "title">
+                            <label for="name" data-error = "Please enter the title" >Title</label>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="input-field col">
+                            <i class="fa fa-pencil-square-o prefix" aria-hidden="true"></i>
+                            <textarea id="textarea1"
+                                      class="materialize-textarea"
+                                      [ngModel] = "letter?.content"
+                                      formControlName = "content"></textarea>
+                            <label for="textarea1" data-error = "Please enter content">Content</label>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="input-field col s12 col-12">
+                            <i class="fa fa-user-o prefix" aria-hidden="true"></i>
+                            <input id="signature"
+                                   type="text"
+                                   [ngModel] = "letter?.signature"
+                                   formControlName = "signature">
+                            <label for="name" data-error = "Please enter your signature" >Signature</label>
+                          </div>
+                        </div>
+
+                    </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-flat btn-sm btn-outline-warning" data-dismiss="modal" (click) = "cancelEdit()">Cancel</button>
+                        <button
+                                  [disabled]="!newLetterForm.valid"
+                                  type="submit"
+                                  class="waves-effect waves-light btn btn-flat btn-outline-primary" >
+                                  <i *ngIf="loadingIcon" style ="font-size: 0.8em"class="fa fa-refresh fa-spin"></i>
+                                  Save Changes
+                          </button>
+                      </div>
+                  </form>
+                </div>
+              </div>
+            </div>
