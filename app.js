@@ -32,7 +32,7 @@ const express = require('express'),
 // });
 
 var	app		= express();
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8080;
 var indexRoutes = require("./routes/indexRoutes");
 var contactMessage = require("./routes/contact_message");
 var letter = require("./routes/letter");

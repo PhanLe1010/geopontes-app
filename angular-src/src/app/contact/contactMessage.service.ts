@@ -17,7 +17,7 @@ export class ContactMessageService{
     const token = localStorage.getItem('token')
             ? '?token=' + localStorage.getItem('token')
             : '';
-    return this.http.get('http://localhost:3000/contact_message'+ token)
+    return this.http.get('https://pontesnetwork.herokuapp.com/contact_message'+ token)
                     .map((response: Response) => {
                                                       return response.json().obj;
                                                   })
@@ -29,7 +29,7 @@ export class ContactMessageService{
   addContactMessage(message: ContactMessage){
     const body = JSON.stringify(message);
     const headers = new Headers({"Content-Type": "application/json"});
-    return this.http.post('http://localhost:3000/contact_message', body, {headers: headers} )
+    return this.http.post('https://pontesnetwork.herokuapp.com/contact_message', body, {headers: headers} )
               .map((response: Response) => {return response.json()})
               .catch((error: Response) => {return Observable.throw(error.json())});
   }

@@ -14,7 +14,7 @@ export class LetterService{
 
   //Hookup to the get letter API
   getLetter(){
-    return this.http.get('http://localhost:3000/letter')
+    return this.http.get('https://pontesnetwork.herokuapp.com/letter')
                     .map((response: Response) => {
                         const jsonLetters = response.json().obj;
                         let transformedLetters: Letter[] = [];
@@ -40,7 +40,7 @@ export class LetterService{
             : '';
     const body = JSON.stringify(letter);
     const headers = new Headers({"Content-Type": "application/json"});
-    return this.http.post("http://localhost:3000/letter" + token, body, {headers: headers})
+    return this.http.post("https://pontesnetwork.herokuapp.com/letter" + token, body, {headers: headers})
            .map((response: Response) => {
              const result = response.json();
              let letter = new Letter(result.obj.title, result.obj.content, result.obj.signature, new Date(result.obj.date), null, result.obj._id)
@@ -61,7 +61,7 @@ export class LetterService{
             : '';
       const body = JSON.stringify(letter);
       const headers = new Headers({'Content-Type': 'application/json'});
-      return this.http.patch('http://localhost:3000/letter/' + letter._id + token, body, {headers: headers})
+      return this.http.patch('https://pontesnetwork.herokuapp.com/letter/' + letter._id + token, body, {headers: headers})
             .map((response: Response) => response.json())
             .catch((error: Response) => Observable.throw(error.json()));
   }
@@ -72,7 +72,7 @@ export class LetterService{
             ? '?token=' + localStorage.getItem('token')
             : '';
     this.letters.splice(this.letters.indexOf(letter), 1);
-    return this.http.delete('http://localhost:3000/letter/' + letter._id + token)
+    return this.http.delete('https://pontesnetwork.herokuapp.com/letter/' + letter._id + token)
         .map((response: Response) => response.json())
         .catch((error: Response) => Observable.throw(error.json()));
   }

@@ -15,7 +15,7 @@ export class CommentService{
 
   //Hookup to the get comments API
   getComment(letterId: string){
-    return this.http.get('http://localhost:3000/'+letterId+'/comment')
+    return this.http.get('https://pontesnetwork.herokuapp.com/'+letterId+'/comment')
                .map((response: Response) => {
                  const jsonComments = response.json().obj;
                  let transformedComments: Comment[] = [];
@@ -32,7 +32,7 @@ export class CommentService{
   addComment(comment: Comment){
     const body = JSON.stringify(comment);
     const headers = new Headers({"Content-Type": "application/json"});
-    return this.http.post("http://localhost:3000/"+comment.letterId+"/comment", body, {headers: headers})
+    return this.http.post("https://pontesnetwork.herokuapp.com/"+comment.letterId+"/comment", body, {headers: headers})
            .map((response: Response) => {
              const result = response.json().obj;
              let comment = new Comment(result.name, result.email, result.content, result._id, result.letterId, new Date(result.date))
@@ -53,7 +53,7 @@ export class CommentService{
       }
     }
 
-    return this.http.delete('http://localhost:3000/' + letterId + "/comment/" +  commentId + token)
+    return this.http.delete('https://pontesnetwork.herokuapp.com/' + letterId + "/comment/" +  commentId + token)
         .map((response: Response) => response.json())
         .catch((error: Response) => Observable.throw(error.json()));
   }
