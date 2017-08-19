@@ -4,28 +4,27 @@ section{
   height: 70vh;
   background-size: cover;
   background-position: center;
-  
-  .mission-content-left{
-    background-color: rgba(41, 144, 234, 0.5);
-    padding-top: 10vh;
-    padding-right: 25vh;
-    text-align: left;
-    color: white;
-    height: 100%;
-  }
-  
-  .mission-content-right {
+
+  .mission-content {
     background-color: rgba(41, 144, 234, 0.5);
     padding-top: 10vh;
     padding-left: 25vh;
-    text-align: left;
+    text-align: center;
     color: white;
     height: 100%;   
   }
+  
+  .carousel {
+    width: 500px;
+  }
+
 }
-img{
-  width:100%;
-}
+
+
+// .carousel img{
+//   width: 500px;
+//   height: 250px;
+// }
 
 #program1{
   background: #071b26 !important;

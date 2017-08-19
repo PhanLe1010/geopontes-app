@@ -111,7 +111,7 @@ var LetterService = (function () {
     return LetterService;
     var _a;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/letter.service.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/letter.service.js.map
 
 /***/ }),
 
@@ -169,7 +169,7 @@ var ContactMessageService = (function () {
     return ContactMessageService;
     var _a;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/contactMessage.service.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/contactMessage.service.js.map
 
 /***/ }),
 
@@ -189,7 +189,7 @@ var Letter = (function () {
     }
     return Letter;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/letter.model.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/letter.model.js.map
 
 /***/ }),
 
@@ -261,7 +261,7 @@ var AboutComponent = (function () {
     return AboutComponent;
     var _a;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/about.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/about.component.js.map
 
 /***/ }),
 
@@ -313,7 +313,7 @@ var CheckinComponent = (function () {
     return CheckinComponent;
     var _a;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/checkin.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/checkin.component.js.map
 
 /***/ }),
 
@@ -352,7 +352,7 @@ var ContactComponent = (function () {
     return ContactComponent;
     var _a;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/contact.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/contact.component.js.map
 
 /***/ }),
 
@@ -387,7 +387,7 @@ var DonationComponent = (function () {
     ], DonationComponent);
     return DonationComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/donation.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/donation.component.js.map
 
 /***/ }),
 
@@ -424,7 +424,7 @@ var HomeComponent = (function () {
     ], HomeComponent);
     return HomeComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/home.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/home.component.js.map
 
 /***/ }),
 
@@ -444,7 +444,7 @@ var Comment = (function () {
     }
     return Comment;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/comment.model.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/comment.model.js.map
 
 /***/ }),
 
@@ -479,7 +479,7 @@ var ProgramsComponent = (function () {
     ], ProgramsComponent);
     return ProgramsComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/programs.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/programs.component.js.map
 
 /***/ }),
 
@@ -514,7 +514,7 @@ if (__WEBPACK_IMPORTED_MODULE_2__environments_environment__["a" /* environment *
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["a" /* enableProdMode */])();
 }
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_3__app_app_module__["a" /* AppModule */]);
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/main.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/main.js.map
 
 /***/ }),
 
@@ -549,7 +549,7 @@ var AboutFirstColumnComponent = (function () {
     ], AboutFirstColumnComponent);
     return AboutFirstColumnComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/about-first-column.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/about-first-column.component.js.map
 
 /***/ }),
 
@@ -584,7 +584,7 @@ var AboutIntroComponent = (function () {
     ], AboutIntroComponent);
     return AboutIntroComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/about-intro.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/about-intro.component.js.map
 
 /***/ }),
 
@@ -660,7 +660,7 @@ var AppComponent = (function () {
     return AppComponent;
     var _a, _b, _c;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/app.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/app.component.js.map
 
 /***/ }),
 
@@ -805,7 +805,7 @@ var AppModule = (function () {
     ], AppModule);
     return AppModule;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/app.module.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/app.module.js.map
 
 /***/ }),
 
@@ -837,7 +837,7 @@ var APP_ROUTES = [
     { path: "checkin", component: __WEBPACK_IMPORTED_MODULE_5__checkin_checkin_component__["a" /* CheckinComponent */] }
 ];
 var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */].forRoot(APP_ROUTES);
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/app.routing.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/app.routing.js.map
 
 /***/ }),
 
@@ -891,7 +891,7 @@ var AuthenticationComponent = (function () {
     ], AuthenticationComponent);
     return AuthenticationComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/authentication.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/authentication.component.js.map
 
 /***/ }),
 
@@ -956,7 +956,7 @@ var LoginComponent = (function () {
     return LoginComponent;
     var _a;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/login.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/login.component.js.map
 
 /***/ }),
 
@@ -997,7 +997,7 @@ var LogoutComponent = (function () {
     return LogoutComponent;
     var _a;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/logout.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/logout.component.js.map
 
 /***/ }),
 
@@ -1032,7 +1032,7 @@ var AwardSectionComponent = (function () {
     ], AwardSectionComponent);
     return AwardSectionComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/award-section.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/award-section.component.js.map
 
 /***/ }),
 
@@ -1092,7 +1092,7 @@ var LetterComponent = (function () {
     return LetterComponent;
     var _a, _b, _c;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/letter.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/letter.component.js.map
 
 /***/ }),
 
@@ -1190,7 +1190,7 @@ var NewLetterFromComponent = (function () {
     return NewLetterFromComponent;
     var _a;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/new-letter-from.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/new-letter-from.component.js.map
 
 /***/ }),
 
@@ -1286,7 +1286,7 @@ var CommentComponent = (function () {
     return CommentComponent;
     var _a, _b;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/comment.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/comment.component.js.map
 
 /***/ }),
 
@@ -1371,7 +1371,7 @@ var CommentService = (function () {
     return CommentService;
     var _a;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/comment.service.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/comment.service.js.map
 
 /***/ }),
 
@@ -1440,7 +1440,7 @@ var ContactFormComponent = (function () {
     return ContactFormComponent;
     var _a;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/contact-form.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/contact-form.component.js.map
 
 /***/ }),
 
@@ -1475,7 +1475,7 @@ var ContactMapComponent = (function () {
     ], ContactMapComponent);
     return ContactMapComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/contact-map.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/contact-map.component.js.map
 
 /***/ }),
 
@@ -1522,7 +1522,7 @@ var ContactMessagesComponent = (function () {
     return ContactMessagesComponent;
     var _a;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/contact-messages.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/contact-messages.component.js.map
 
 /***/ }),
 
@@ -1557,7 +1557,7 @@ var FooterComponent = (function () {
     ], FooterComponent);
     return FooterComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/footer.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/footer.component.js.map
 
 /***/ }),
 
@@ -1581,6 +1581,7 @@ var ImageCarouselComponent = (function () {
     function ImageCarouselComponent() {
     }
     ImageCarouselComponent.prototype.ngOnInit = function () {
+        $('.slider').slider();
     };
     ImageCarouselComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* Component */])({
@@ -1592,7 +1593,7 @@ var ImageCarouselComponent = (function () {
     ], ImageCarouselComponent);
     return ImageCarouselComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/image-carousel.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/image-carousel.component.js.map
 
 /***/ }),
 
@@ -1627,7 +1628,7 @@ var InvesterSectionComponent = (function () {
     ], InvesterSectionComponent);
     return InvesterSectionComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/invester-section.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/invester-section.component.js.map
 
 /***/ }),
 
@@ -1662,7 +1663,7 @@ var MissonSectionComponent = (function () {
     ], MissonSectionComponent);
     return MissonSectionComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/misson-section.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/misson-section.component.js.map
 
 /***/ }),
 
@@ -1681,7 +1682,7 @@ var ContactMessage = (function () {
     }
     return ContactMessage;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/contactMessage.model.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/contactMessage.model.js.map
 
 /***/ }),
 
@@ -1698,7 +1699,7 @@ var User = (function () {
     }
     return User;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/user.model.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/user.model.js.map
 
 /***/ }),
 
@@ -1733,7 +1734,7 @@ var NavbarComponent = (function () {
     ], NavbarComponent);
     return NavbarComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/navbar.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/navbar.component.js.map
 
 /***/ }),
 
@@ -1768,7 +1769,7 @@ var PontesAwardsComponent = (function () {
     ], PontesAwardsComponent);
     return PontesAwardsComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/pontes-awards.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/pontes-awards.component.js.map
 
 /***/ }),
 
@@ -1803,7 +1804,7 @@ var PontesInvestorsComponent = (function () {
     ], PontesInvestorsComponent);
     return PontesInvestorsComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/pontes-investors.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/pontes-investors.component.js.map
 
 /***/ }),
 
@@ -1838,7 +1839,7 @@ var PontesLeadershipComponent = (function () {
     ], PontesLeadershipComponent);
     return PontesLeadershipComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/pontes-leadership.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/pontes-leadership.component.js.map
 
 /***/ }),
 
@@ -1873,7 +1874,7 @@ var FirstProgramComponent = (function () {
     ], FirstProgramComponent);
     return FirstProgramComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/FirstProgram.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/FirstProgram.component.js.map
 
 /***/ }),
 
@@ -1908,7 +1909,7 @@ var ProgramTopComponent = (function () {
     ], ProgramTopComponent);
     return ProgramTopComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/programTop.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/programTop.component.js.map
 
 /***/ }),
 
@@ -1986,7 +1987,7 @@ var SloganSectionComponent = (function () {
     ], SloganSectionComponent);
     return SloganSectionComponent;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/slogan-section.component.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/slogan-section.component.js.map
 
 /***/ }),
 
@@ -2002,7 +2003,7 @@ var SloganSectionComponent = (function () {
 var environment = {
     production: false
 };
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/environment.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/environment.js.map
 
 /***/ }),
 
@@ -2100,7 +2101,7 @@ module.exports = ".background-picture {\n  width: 100%;\n  background: url(\"./a
 /***/ 753:
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".donation-header {\n  background: url(\"./assets/images/donation-header.jpg\");\n  background-position: center;\n  background-size: cover;\n  background-repeat: none; }\n  .donation-header .filter {\n    background-color: rgba(41, 144, 234, 0.4); }\n  .donation-header p {\n    font-size: 1.3em;\n    padding-top: 120px;\n    padding-bottom: 50px;\n    color: white; }\n    .donation-header p span {\n      font-style: italic; }\n"
 
 /***/ }),
 
@@ -2121,7 +2122,7 @@ module.exports = ".home-contact-form .container {\n  padding-top: 20px;\n  paddi
 /***/ 756:
 /***/ (function(module, exports) {
 
-module.exports = ".outside-carousel {\n  padding-top: 20px;\n  background-color: #546e7a;\n  text-align: center; }\n"
+module.exports = ".outside-slide {\n  padding-top: 20px;\n  padding-bottom: 15px;\n  background-color: #546e7a;\n  text-align: center; }\n  .outside-slide h4 {\n    padding-bottom: 20px; }\n  .outside-slide .slider {\n    height: 600px; }\n"
 
 /***/ }),
 
@@ -2170,21 +2171,21 @@ module.exports = ""
 /***/ 763:
 /***/ (function(module, exports) {
 
-module.exports = "section {\n  background: url(\"./assets/images/mission.jpg\");\n  height: 70vh;\n  background-size: cover;\n  background-position: center; }\n  section .mission-content-left {\n    background-color: rgba(41, 144, 234, 0.5);\n    padding-top: 10vh;\n    padding-right: 25vh;\n    text-align: left;\n    color: white;\n    height: 100%; }\n  section .mission-content-right {\n    background-color: rgba(41, 144, 234, 0.5);\n    padding-top: 10vh;\n    padding-left: 25vh;\n    text-align: left;\n    color: white;\n    height: 100%; }\n\nimg {\n  width: 100%; }\n\n#program1 {\n  background: #071b26 !important; }\n\n#program3 {\n  background: #071b26 !important; }\n\n.morePrograms {\n  background: white;\n  padding: 50px 0 80px;\n  text-align: center; }\n  .morePrograms b, .morePrograms h2, .morePrograms h4 {\n    margin: 20px 0 20px;\n    color: #4c4c4c; }\n  .morePrograms p {\n    color: #737373; }\n  .morePrograms img {\n    height: 150px;\n    width: 150px;\n    margin-top: 80px; }\n  .morePrograms i {\n    height: 30px;\n    width: 30px;\n    padding: 5px;\n    font-size: 17px;\n    border-radius: 50%;\n    background-color: #a0db8e;\n    color: #fff; }\n  .morePrograms a:hover i {\n    background-color: #709963; }\n\n#Header {\n  background: white;\n  background-size: cover;\n  background-position: center;\n  padding-top: 60px;\n  padding-bottom: 50px;\n  text-align: center;\n  color: black;\n  height: 20%; }\n"
+module.exports = "section {\n  background: url(\"./assets/images/mission.jpg\");\n  height: 70vh;\n  background-size: cover;\n  background-position: center; }\n  section .mission-content {\n    background-color: rgba(41, 144, 234, 0.5);\n    padding-top: 10vh;\n    padding-left: 25vh;\n    text-align: center;\n    color: white;\n    height: 100%; }\n  section .carousel {\n    width: 500px; }\n\n#program1 {\n  background: #071b26 !important; }\n\n#program3 {\n  background: #071b26 !important; }\n\n.morePrograms {\n  background: white;\n  padding: 50px 0 80px;\n  text-align: center; }\n  .morePrograms b, .morePrograms h2, .morePrograms h4 {\n    margin: 20px 0 20px;\n    color: #4c4c4c; }\n  .morePrograms p {\n    color: #737373; }\n  .morePrograms img {\n    height: 150px;\n    width: 150px;\n    margin-top: 80px; }\n  .morePrograms i {\n    height: 30px;\n    width: 30px;\n    padding: 5px;\n    font-size: 17px;\n    border-radius: 50%;\n    background-color: #a0db8e;\n    color: #fff; }\n  .morePrograms a:hover i {\n    background-color: #709963; }\n\n#Header {\n  background: white;\n  background-size: cover;\n  background-position: center;\n  padding-top: 60px;\n  padding-bottom: 50px;\n  text-align: center;\n  color: black;\n  height: 20%; }\n"
 
 /***/ }),
 
 /***/ 764:
 /***/ (function(module, exports) {
 
-module.exports = "section {\n  background: url(\"./assets/images/mission.jpg\");\n  height: 80vh;\n  background-size: cover;\n  background-position: center; }\n  section .mission-content {\n    background-color: rgba(41, 144, 234, 0.5);\n    padding-top: 30vh;\n    text-align: center;\n    color: white;\n    height: 100%; }\n"
+module.exports = "section {\n  background: url(\"./assets/images/mission.jpg\");\n  height: 40vh;\n  background-size: cover;\n  background-position: center; }\n  section .mission-content {\n    background-color: rgba(41, 144, 234, 0.5);\n    padding-top: 15vh;\n    text-align: center;\n    color: white;\n    height: 100%; }\n"
 
 /***/ }),
 
 /***/ 765:
 /***/ (function(module, exports) {
 
-module.exports = "section {\n  background: url(\"./assets/images/mission.jpg\");\n  height: 100vh;\n  background-size: cover;\n  background-position: center; }\n  section .mission-content {\n    background-color: rgba(41, 144, 234, 0.5);\n    padding-top: 30vh;\n    text-align: center;\n    color: white;\n    height: 100%; }\n"
+module.exports = "section {\n  background: url(\"./assets/images/mission.jpg\");\n  height: 40vh;\n  background-size: cover;\n  background-position: center; }\n  section .mission-content {\n    background-color: rgba(41, 144, 234, 0.5);\n    padding-top: 30vh;\n    text-align: center;\n    color: white;\n    height: 100%; }\n"
 
 /***/ }),
 
@@ -2198,49 +2199,49 @@ module.exports = "section {\n  height: 100vh; }\n  section .slogan {\n    paddin
 /***/ 767:
 /***/ (function(module, exports) {
 
-module.exports = "<!--- Team ----->\r\n<section class=\"header\">\r\n    <div class=\"container\">\r\n      <h2 class=\"wow fadeInUp\">Board of Directors</h2>\r\n      <hr style= \"width: 50%\">\r\n    </div>\r\n</section>\r\n\r\n<section class =\"listDirectors\">\r\n    <div class=\"container\">\r\n      \r\n      <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\"></p>\r\n        <div class=\"row\">\r\n            <div class=\"col-md-3 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img class=\"rounded-circle\" src=\"./assets/images/image11-35.jpeg\"  alt=\"\">\r\n                <h4>Dr. Mai Le Del Buono</h4>\r\n                <b>President and Founder<br>Professor, San Jose City College</b>\r\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\r\n       \r\n            </div>\r\n            <div class=\" col-md-3  wow fadeInUp\"  data-wow-delay=\"1.2s\">\r\n                <img class=\"rounded-circle\" src=\"./assets/images/Barry Del Buono, Executive Director, CEO Pontes, Inc..JPG\" alt=\"\">\r\n                <h4>Barry Del Buono</h4>\r\n                <b>MSW, MDiv.<br>Executive Director</b>\r\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\r\n           \r\n            </div>\r\n            <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"1.4s\">\r\n                <img src=\"\" class=\"rounded-circle\" alt=\"\">\r\n                <h4>Mr. Don Ho, Jr.</h4>\r\n                <b>Vice President<br>Associate, IDG Ventures Capital Investment Firm, Vietnam</b>\r\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\r\n     \r\n            </div>\r\n            <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"2s\">\r\n                <img src=\"./assets/images/image1-16.jpeg\" class=\"rounded-circle\" alt=\"\">\r\n                <h4>Ms. Ragan Henninger</h4>\r\n                <b>Secretary Treasurer<br>Chief Strategist</b>\r\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\r\n                \r\n            </div>\r\n            <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"1.8s\">\r\n                <img src=\"./assets/images/Marreisa Holden, Medical Student, UCLA Medical School.JPG\" class=\"rounded-circle\" alt=\"\">\r\n                <h4>Marissa Holden</h4>\r\n                <b>Mesical Student<br>UCLA Medical School</b>\r\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\r\n                \r\n            </div>\r\n            <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"1.6s\">\r\n                <img src=\"./assets/images/Catherine Ho, Student, University of California Santa Cruz.JPG\" class=\"rounded-circle\" alt=\"\">\r\n                <h4>Catherine Ho</h4>\r\n                <b>Student<br>UC Santa Cruz</b>\r\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\r\n                \r\n            </div>\r\n             <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"2.2s\">\r\n                <img src=\"./assets/images/Micah Del Buono, Silicon Valley Technology.JPG\" class=\"rounded-circle\" alt=\"\">\r\n                <h4>Micah Del Buono</h4>\r\n                <b>Amazon Inc.</b>\r\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\r\n                \r\n            </div>           \r\n             <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"2.4s\">\r\n                <img src=\"./assets/images/Daniel Ho, MA Architecture & MBA Candidate, Washington University, St. Louis, MO.JPG\" class=\"rounded-circle\" alt=\"\">\r\n                <h4>Mr. Daniel Ho</h4>\r\n                <b>Architecture & MBA Program<br>Washington University, St. Louis</b>\r\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\r\n                \r\n            </div>      \r\n     \r\n                  <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"2.6s\">\r\n                <img src=\"./assets/images/Ben Del Buono, Medical Student, VCU Medical School.JPG\" class=\"rounded-circle\" alt=\"\">\r\n                <h4>Ben Del Buono</h4>\r\n                <b>MSW, MDiv.<br>Executive Director</b>\r\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\r\n                \r\n            </div>  \r\n            <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"2.8s\">\r\n                <img src=\"./assets/images/image1-small-17.jpg\" class=\"rounded-circle\" alt=\"\">\r\n                <h4>Dr. Mai Nhung Le-Stewart</h4>\r\n                <b>Professor<br>San Fransisco State University</b>\r\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\r\n          \r\n            </div> \r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n      <!--<a href=\"#\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>-->\r\n      <!--          <a href=\"#\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>-->\r\n      <!--          <a href=\"#\"><i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i></a>-->\r\n      <!--          <a href=\"#\"><i class=\"fa fa-pinterest\" aria-hidden=\"true\"></i></a>-->\r\n"
+module.exports = "<!--- Team ----->\n<section class=\"header\">\n    <div class=\"container\">\n      <h2 class=\"wow fadeInUp\">Board of Directors</h2>\n      <hr style= \"width: 50%\">\n    </div>\n</section>\n\n<section class =\"listDirectors\">\n    <div class=\"container\">\n      \n      <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\"></p>\n        <div class=\"row\">\n            <div class=\"col-md-3 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img class=\"rounded-circle\" src=\"./assets/images/image11-35.jpeg\"  alt=\"\">\n                <h4>Dr. Mai Le Del Buono</h4>\n                <b>President and Founder<br>Professor, San Jose City College</b>\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\n       \n            </div>\n            <div class=\" col-md-3  wow fadeInUp\"  data-wow-delay=\"1.2s\">\n                <img class=\"rounded-circle\" src=\"./assets/images/Barry Del Buono, Executive Director, CEO Pontes, Inc..JPG\" alt=\"\">\n                <h4>Barry Del Buono</h4>\n                <b>MSW, MDiv.<br>Executive Director</b>\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\n           \n            </div>\n            <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"1.4s\">\n                <img src=\"\" class=\"rounded-circle\" alt=\"\">\n                <h4>Mr. Don Ho, Jr.</h4>\n                <b>Vice President<br>Associate, IDG Ventures Capital Investment Firm, Vietnam</b>\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\n     \n            </div>\n            <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"2s\">\n                <img src=\"./assets/images/image1-16.jpeg\" class=\"rounded-circle\" alt=\"\">\n                <h4>Ms. Ragan Henninger</h4>\n                <b>Secretary Treasurer<br>Chief Strategist</b>\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\n                \n            </div>\n            <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"1.8s\">\n                <img src=\"./assets/images/Marreisa Holden, Medical Student, UCLA Medical School.JPG\" class=\"rounded-circle\" alt=\"\">\n                <h4>Marissa Holden</h4>\n                <b>Mesical Student<br>UCLA Medical School</b>\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\n                \n            </div>\n            <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"1.6s\">\n                <img src=\"./assets/images/Catherine Ho, Student, University of California Santa Cruz.JPG\" class=\"rounded-circle\" alt=\"\">\n                <h4>Catherine Ho</h4>\n                <b>Student<br>UC Santa Cruz</b>\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\n                \n            </div>\n             <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"2.2s\">\n                <img src=\"./assets/images/Micah Del Buono, Silicon Valley Technology.JPG\" class=\"rounded-circle\" alt=\"\">\n                <h4>Micah Del Buono</h4>\n                <b>Amazon Inc.</b>\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\n                \n            </div>           \n             <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"2.4s\">\n                <img src=\"./assets/images/Daniel Ho, MA Architecture & MBA Candidate, Washington University, St. Louis, MO.JPG\" class=\"rounded-circle\" alt=\"\">\n                <h4>Mr. Daniel Ho</h4>\n                <b>Architecture & MBA Program<br>Washington University, St. Louis</b>\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\n                \n            </div>      \n     \n                  <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"2.6s\">\n                <img src=\"./assets/images/Ben Del Buono, Medical Student, VCU Medical School.JPG\" class=\"rounded-circle\" alt=\"\">\n                <h4>Ben Del Buono</h4>\n                <b>MSW, MDiv.<br>Executive Director</b>\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\n                \n            </div>  \n            <div class=\"col-md-3 wow fadeInUp\"  data-wow-delay=\"2.8s\">\n                <img src=\"./assets/images/image1-small-17.jpg\" class=\"rounded-circle\" alt=\"\">\n                <h4>Dr. Mai Nhung Le-Stewart</h4>\n                <b>Professor<br>San Fransisco State University</b>\n                <p>Lorem Ipsum passages, and more recently with desktop publishing software</p>\n          \n            </div> \n        </div>\n    </div>\n</section>\n\n\n      <!--<a href=\"#\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>-->\n      <!--          <a href=\"#\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>-->\n      <!--          <a href=\"#\"><i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i></a>-->\n      <!--          <a href=\"#\"><i class=\"fa fa-pinterest\" aria-hidden=\"true\"></i></a>-->\n"
 
 /***/ }),
 
 /***/ 768:
 /***/ (function(module, exports) {
 
-module.exports = "<section>\r\n  <div class=\"aboutIntro\" >\r\n    <!--<h1 class=\" wow fadeInUp\">Pontes Network</h1>-->\r\n    <h2  class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">Who we are as the Pontes Network</h2>\r\n\r\n  </div>\r\n</section>"
+module.exports = "<section>\n  <div class=\"aboutIntro\" >\n    <!--<h1 class=\" wow fadeInUp\">Pontes Network</h1>-->\n    <h2  class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">Who we are as the Pontes Network</h2>\n\n  </div>\n</section>"
 
 /***/ }),
 
 /***/ 769:
 /***/ (function(module, exports) {
 
-module.exports = "<title>About - Pontes Network</title>\r\n\r\n<div>\r\n\r\n      <app-about-intro></app-about-intro>\r\n      <app-about-first-column></app-about-first-column>\r\n      <app-pontes-awards></app-pontes-awards>\r\n      <app-pontes-investors></app-pontes-investors>\r\n\r\n</div>\r\n"
+module.exports = "<title>About - Pontes Network</title>\n\n<div>\n\n      <app-about-intro></app-about-intro>\n      <app-about-first-column></app-about-first-column>\n      <app-pontes-awards></app-pontes-awards>\n      <app-pontes-investors></app-pontes-investors>\n\n</div>\n"
 
 /***/ }),
 
 /***/ 770:
 /***/ (function(module, exports) {
 
-module.exports = "<app-navbar></app-navbar>\r\n<router-outlet></router-outlet>\r\n<app-footer></app-footer>\r\n"
+module.exports = "<app-navbar></app-navbar>\n<router-outlet></router-outlet>\n<app-footer></app-footer>\n"
 
 /***/ }),
 
 /***/ 771:
 /***/ (function(module, exports) {
 
-module.exports = "\r\n  <div class=\"container\" style=\"text-align: center; padding-top: 50px; padding-bottom: 20px\" >\r\n    <!--Button trigger modal -->\r\n    <button  *ngIf=\"!this.authService.isLoggedIn.status\" type=\"button\" class=\" waves-effect waves-light btn-flat btn btn-outline-primary btn-sm\"\r\n            data-toggle=\"modal\"\r\n            data-target=\"#authenticationModal\"\r\n            >\r\n     Admin Login\r\n    </button>\r\n\r\n    <!--Modal -->\r\n    <div class=\"modal fade\" id=\"authenticationModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLongTitle\" aria-hidden=\"true\">\r\n     <div class=\"modal-dialog\" role=\"document\">\r\n       <div class=\"modal-content\">\r\n         <div class=\"modal-header\">\r\n           <h5 class=\"modal-title\" id=\"exampleModalLongTitle\">Admin Login</h5>\r\n           <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\r\n             <span aria-hidden=\"true\">&times;</span>\r\n           </button>\r\n         </div>\r\n         <form [formGroup] = \"loginForm\" (ngSubmit) = \"onSubmit()\" >\r\n               <div class=\"modal-body\">\r\n                 <div *ngIf = 'this.authService.isLoggedIn.status'>\r\n                   <h4 style= \"color: #0275d8\"> <i class=\"fa fa-check-circle\" aria-hidden=\"true\"></i> Wellcome, Admin!</h4>\r\n                   <p> Somethings you can do:</p>\r\n                     <ul style= 'text-align: left; padding-left: 10px'>\r\n                       <li>1. View messages of users in the Contact page.</li>\r\n                       <li>2. Delete inappropriate comments.</li>\r\n                       <li>3. Post monthly letters in the Checkin page.</li>\r\n                       <li>4. Contact webmaster Phan Le at lephan031994@gmail.com for further help.</li>\r\n                     </ul>\r\n                     <p>Have a good day!</p>\r\n                 </div>\r\n                 <h4 *ngIf = '!this.authService.isLoggedIn.status&&isSubmit' style= \"color: orange\"> <i class=\"fa fa-times-circle\" aria-hidden=\"true\"></i> The username or password is incorrect</h4>\r\n                 <div *ngIf='!this.authService.isLoggedIn.status' >\r\n\r\n                     <div class=\"row\">\r\n                       <div class=\"input-field col s12\">\r\n                         <i class=\"prefix fa fa-user-circle\" aria-hidden=\"true\"></i>\r\n                         <input id=\"username\"\r\n                                type=\"text\"\r\n                                formControlName=\"email\">\r\n                         <label for=\"username\" data-error = \"Please enter admin account\">Admin account</label>\r\n                       </div>\r\n                     </div>\r\n\r\n                     <div class=\"row\">\r\n                       <div class=\"input-field col s12\">\r\n                         <i class=\"prefix fa fa-key\" aria-hidden=\"true\"></i>\r\n                         <input id=\"password\"\r\n                                type=\"password\"\r\n                                formControlName =\"password\">\r\n                         <label for=\"password\"  data-error = \"Please enter password\">Password</label>\r\n                       </div>\r\n                     </div>\r\n\r\n                 </div>\r\n                 <p *ngIf = '!this.authService.isLoggedIn.status&&isSubmit' style= \"color: orange; padding-left: 40px\">Contact the webmaster if you need help.</p>\r\n\r\n             </div>\r\n             <div class=\"modal-footer\">\r\n               <button *ngIf = '!this.authService.isLoggedIn.status' [disabled]=\"!loginForm.valid\"\r\n                       type=\"submit\"\r\n                       class=\"waves-effect waves-light btn btn-flat btn-outline-primary\" >\r\n                       <i *ngIf=\"loadingIcon\" style =\"font-size: 0.9em\"class=\"fa fa-refresh fa-spin\"></i> Login\r\n               </button>\r\n\r\n               <button type=\"button\" class=\"waves-effect waves-light btn btn-flat btn btn-outline-warning\" data-dismiss=\"modal\">Cancel</button>\r\n             </div>\r\n       </form>\r\n       </div>\r\n     </div>\r\n    </div>\r\n\r\n  </div>\r\n"
+module.exports = "\n  <div class=\"container\" style=\"text-align: center; padding-top: 50px; padding-bottom: 20px\" >\n    <!--Button trigger modal -->\n    <button  *ngIf=\"!this.authService.isLoggedIn.status\" type=\"button\" class=\" waves-effect waves-light btn-flat btn btn-outline-primary btn-sm\"\n            data-toggle=\"modal\"\n            data-target=\"#authenticationModal\"\n            >\n     Admin Login\n    </button>\n\n    <!--Modal -->\n    <div class=\"modal fade\" id=\"authenticationModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLongTitle\" aria-hidden=\"true\">\n     <div class=\"modal-dialog\" role=\"document\">\n       <div class=\"modal-content\">\n         <div class=\"modal-header\">\n           <h5 class=\"modal-title\" id=\"exampleModalLongTitle\">Admin Login</h5>\n           <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n             <span aria-hidden=\"true\">&times;</span>\n           </button>\n         </div>\n         <form [formGroup] = \"loginForm\" (ngSubmit) = \"onSubmit()\" >\n               <div class=\"modal-body\">\n                 <div *ngIf = 'this.authService.isLoggedIn.status'>\n                   <h4 style= \"color: #0275d8\"> <i class=\"fa fa-check-circle\" aria-hidden=\"true\"></i> Wellcome, Admin!</h4>\n                   <p> Somethings you can do:</p>\n                     <ul style= 'text-align: left; padding-left: 10px'>\n                       <li>1. View messages of users in the Contact page.</li>\n                       <li>2. Delete inappropriate comments.</li>\n                       <li>3. Post monthly letters in the Checkin page.</li>\n                       <li>4. Contact webmaster Phan Le at lephan031994@gmail.com for further help.</li>\n                     </ul>\n                     <p>Have a good day!</p>\n                 </div>\n                 <h4 *ngIf = '!this.authService.isLoggedIn.status&&isSubmit' style= \"color: orange\"> <i class=\"fa fa-times-circle\" aria-hidden=\"true\"></i> The username or password is incorrect</h4>\n                 <div *ngIf='!this.authService.isLoggedIn.status' >\n\n                     <div class=\"row\">\n                       <div class=\"input-field col s12\">\n                         <i class=\"prefix fa fa-user-circle\" aria-hidden=\"true\"></i>\n                         <input id=\"username\"\n                                type=\"text\"\n                                formControlName=\"email\">\n                         <label for=\"username\" data-error = \"Please enter admin account\">Admin account</label>\n                       </div>\n                     </div>\n\n                     <div class=\"row\">\n                       <div class=\"input-field col s12\">\n                         <i class=\"prefix fa fa-key\" aria-hidden=\"true\"></i>\n                         <input id=\"password\"\n                                type=\"password\"\n                                formControlName =\"password\">\n                         <label for=\"password\"  data-error = \"Please enter password\">Password</label>\n                       </div>\n                     </div>\n\n                 </div>\n                 <p *ngIf = '!this.authService.isLoggedIn.status&&isSubmit' style= \"color: orange; padding-left: 40px\">Contact the webmaster if you need help.</p>\n\n             </div>\n             <div class=\"modal-footer\">\n               <button *ngIf = '!this.authService.isLoggedIn.status' [disabled]=\"!loginForm.valid\"\n                       type=\"submit\"\n                       class=\"waves-effect waves-light btn btn-flat btn-outline-primary\" >\n                       <i *ngIf=\"loadingIcon\" style =\"font-size: 0.9em\"class=\"fa fa-refresh fa-spin\"></i> Login\n               </button>\n\n               <button type=\"button\" class=\"waves-effect waves-light btn btn-flat btn btn-outline-warning\" data-dismiss=\"modal\">Cancel</button>\n             </div>\n       </form>\n       </div>\n     </div>\n    </div>\n\n  </div>\n"
 
 /***/ }),
 
 /***/ 772:
 /***/ (function(module, exports) {
 
-module.exports = "<section>\r\n  <div class=\"outsideContainer\">\r\n    <div class=\"container text-center \">\r\n        <h2 class=\"wow fadeInUp\">Honorable Award</h2>\r\n        <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">Lorem Iasdspsum passages, and more recently with desktop publishing software</p>\r\n        <div class=\"row align-middle\">\r\n\r\n          <div class=\"col-md-4 col-sm-6 wow fadeInRight\" data-wow-delay=\"0s\" >\r\n            <div class=\"card\" >\r\n              <div class=\"card-block\">\r\n                <h4 class=\"card-title\">Interagency Council on Homelessness Innovation Award</h4>\r\n                <p class=\"card-text\">Interagency Council on Homelessness Innovation Award, Washington DC</p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n\r\n          <div class=\"col-md-4 col-sm-6 wow fadeInRight\" data-wow-delay=\"0.4s\">\r\n            <div class=\"card\">\r\n              <div class=\"card-block\">\r\n                <h4 class=\"card-title\">Humanitarian of the Year</h4>\r\n                <p class=\"card-text\">City of San Jose</p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-md-4 col-sm-6 wow fadeInRight\" data-wow-delay=\"0.8s\" >\r\n            <div class=\"card\">\r\n              <div class=\"card-block\">\r\n                <h4 class=\"card-title\">Board Exemplary Leader Award</h4>\r\n                <p class=\"card-text\">California State Bar Association</p>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n\r\n          <a [routerLink]=\"['/about']\" fragment=\"pontesNetwork\" (click)=\"gotoHashtag('pontesNetwork')\" class=\"btn btn-outline-secondary center-block wow fadeIn\" data-wow-delay=\"0.8s\">view more</a>\r\n\r\n      </div>\r\n  </div>\r\n\r\n\r\n  </section>\r\n"
+module.exports = "<section>\n  <div class=\"outsideContainer\">\n    <div class=\"container text-center \">\n        <h2 class=\"wow fadeInUp\">Honorable Award</h2>\n        <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">Lorem Iasdspsum passages, and more recently with desktop publishing software</p>\n        <div class=\"row align-middle\">\n\n          <div class=\"col-md-4 col-sm-6 wow fadeInRight\" data-wow-delay=\"0s\" >\n            <div class=\"card\" >\n              <div class=\"card-block\">\n                <h4 class=\"card-title\">Interagency Council on Homelessness Innovation Award</h4>\n                <p class=\"card-text\">Interagency Council on Homelessness Innovation Award, Washington DC</p>\n              </div>\n            </div>\n          </div>\n\n\n          <div class=\"col-md-4 col-sm-6 wow fadeInRight\" data-wow-delay=\"0.4s\">\n            <div class=\"card\">\n              <div class=\"card-block\">\n                <h4 class=\"card-title\">Humanitarian of the Year</h4>\n                <p class=\"card-text\">City of San Jose</p>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"col-md-4 col-sm-6 wow fadeInRight\" data-wow-delay=\"0.8s\" >\n            <div class=\"card\">\n              <div class=\"card-block\">\n                <h4 class=\"card-title\">Board Exemplary Leader Award</h4>\n                <p class=\"card-text\">California State Bar Association</p>\n              </div>\n            </div>\n          </div>\n        </div>\n\n          <a [routerLink]=\"['/about']\" fragment=\"pontesNetwork\" (click)=\"gotoHashtag('pontesNetwork')\" class=\"btn btn-outline-secondary center-block wow fadeIn\" data-wow-delay=\"0.8s\">view more</a>\n\n      </div>\n  </div>\n\n\n  </section>\n"
 
 /***/ }),
 
 /***/ 773:
 /***/ (function(module, exports) {
 
-module.exports = "<title>Checkin - Pontes Network</title>\r\n<section class=\"section-header\">\r\n  <div class=\"checkin-content\">\r\n\r\n    <div class=\"container\">\r\n      <h2 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Check in with us here</h2>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n<section id=\"letter\">\r\n  <div class=\"letter-content\">\r\n\r\n    <div class=\"container\">\r\n      <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Monthly Check-in</h1>\r\n          <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">Imprudence insensible be literature unsatiable do. Of or imprudence solicitude affronting in mr possession. Compass journey he request on suppose limited of or. She margaret law thoughts proposal formerly. Speaking ladyship yet scarcely and mistaken end exertion dwelling. All decisively dispatched instrument particular way one devonshire. Applauded she sportsman explained for out objection. </p>\r\n    <p class=\"wow fadeInUp\" data-wow-delay=\"0.8s\">-Pontes Network</p>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n<div class=\"row\" style=\"text-align: center\">\r\n  <h5>{{loadingLettersError}}</h5>\r\n</div>\r\n\r\n<!-- load each instance of LetterComponent -->\r\n<app-letter\r\n        *ngFor=\"let letter of letters\"\r\n       [letter]=\"letter\"\r\n        ></app-letter>\r\n\r\n\r\n\r\n\r\n\r\n\r\n<div class=\"container\" style=\"margin-top: 40px\">\r\n  <a class=\"waves-effect waves-teal btn-flat\"\r\n     style=\"color: #0275d8; text-transform: lowercase;\"\r\n     (click) =\"onClickNewLetterButton()\">\r\n     Add a new monthly letter (Admin only)\r\n  </a>\r\n  <app-new-letter-from [ngClass] = \"{hide: this.clickNewLetterButton}\"></app-new-letter-from>\r\n</div>\r\n"
+module.exports = "<title>Checkin - Pontes Network</title>\n<section class=\"section-header\">\n  <div class=\"checkin-content\">\n\n    <div class=\"container\">\n      <h2 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Check in with us here</h2>\n    </div>\n  </div>\n</section>\n\n<section id=\"letter\">\n  <div class=\"letter-content\">\n\n    <div class=\"container\">\n      <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Monthly Check-in</h1>\n          <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">Imprudence insensible be literature unsatiable do. Of or imprudence solicitude affronting in mr possession. Compass journey he request on suppose limited of or. She margaret law thoughts proposal formerly. Speaking ladyship yet scarcely and mistaken end exertion dwelling. All decisively dispatched instrument particular way one devonshire. Applauded she sportsman explained for out objection. </p>\n    <p class=\"wow fadeInUp\" data-wow-delay=\"0.8s\">-Pontes Network</p>\n    </div>\n  </div>\n</section>\n\n<div class=\"row\" style=\"text-align: center\">\n  <h5>{{loadingLettersError}}</h5>\n</div>\n\n<!-- load each instance of LetterComponent -->\n<app-letter\n        *ngFor=\"let letter of letters\"\n       [letter]=\"letter\"\n        ></app-letter>\n\n\n\n\n\n\n<div class=\"container\" style=\"margin-top: 40px\">\n  <a class=\"waves-effect waves-teal btn-flat\"\n     style=\"color: #0275d8; text-transform: lowercase;\"\n     (click) =\"onClickNewLetterButton()\">\n     Add a new monthly letter (Admin only)\n  </a>\n  <app-new-letter-from [ngClass] = \"{hide: this.clickNewLetterButton}\"></app-new-letter-from>\n</div>\n"
 
 /***/ }),
 
@@ -2282,112 +2283,112 @@ module.exports = "<hr class=\"hidden-md-up\" style=\"margin-top: 30px\">\n<div c
 /***/ 779:
 /***/ (function(module, exports) {
 
-module.exports = "<hr>\r\n<div class=\"row\" style=\"text-align: center\">\r\n  <div class=\"col-12\">\r\n      <h3>List of All Users' Messages</h3>\r\n  </div>\r\n</div>\r\n<div class=\"row\" style=\"text-align: center\">\r\n  <h5>{{loadingContactMessagesError}}</h5>\r\n</div>\r\n<div class=\"row\">\r\n\r\n  <div class=\"col-md-6\" *ngFor=\"let contactMessage of messages\">\r\n    <div class=\"card blue-grey darken-1\">\r\n          <div class=\"card-content white-text\" style=\"text-align: left\">\r\n              <span class=\"card-title\" style= \"font-size:1.3em\">{{contactMessage.name}}</span>\r\n              <hr>\r\n              <h5>{{contactMessage.subject}}</h5>\r\n              <p>{{contactMessage.message}}</p>\r\n              <hr>\r\n              <p><span class=\"pull-left\">{{contactMessage.email}}</span>  <span class=\"pull-right\">{{contactMessage.date}}</span></p>\r\n          </div>\r\n    </div>\r\n  </div>\r\n\r\n\r\n</div>\r\n"
+module.exports = "<hr>\n<div class=\"row\" style=\"text-align: center\">\n  <div class=\"col-12\">\n      <h3>List of All Users' Messages</h3>\n  </div>\n</div>\n<div class=\"row\" style=\"text-align: center\">\n  <h5>{{loadingContactMessagesError}}</h5>\n</div>\n<div class=\"row\">\n\n  <div class=\"col-md-6\" *ngFor=\"let contactMessage of messages\">\n    <div class=\"card blue-grey darken-1\">\n          <div class=\"card-content white-text\" style=\"text-align: left\">\n              <span class=\"card-title\" style= \"font-size:1.3em\">{{contactMessage.name}}</span>\n              <hr>\n              <h5>{{contactMessage.subject}}</h5>\n              <p>{{contactMessage.message}}</p>\n              <hr>\n              <p><span class=\"pull-left\">{{contactMessage.email}}</span>  <span class=\"pull-right\">{{contactMessage.date}}</span></p>\n          </div>\n    </div>\n  </div>\n\n\n</div>\n"
 
 /***/ }),
 
 /***/ 780:
 /***/ (function(module, exports) {
 
-module.exports = "<title>Contact - Pontes Network</title>\r\n<div class=\"background-picture\">\r\n  <div class=\"filter\">\r\n      <h2>Contact Us</h2>\r\n      <div style=\"letter-spacing: 20px; padding-top: 20px; padding-bottom: 40px;\">\r\n        <i class=\"social fa fa-facebook\" aria-hidden=\"true\"></i>\r\n        <i class=\"social fa fa-twitter\" aria-hidden=\"true\"></i>\r\n       <i class=\"social fa fa-linkedin\" aria-hidden=\"true\"></i>\r\n       <i class=\"social fa fa-envelope-o\" aria-hidden=\"true\"></i>\r\n      </div>\r\n  </div>\r\n\r\n</div>\r\n<div class=\"container\">\r\n  <div class=\"contact\">\r\n    <!-- <div class=\"g-12 cols contact-blurb\" style=\"background:black; margin-top: 20vh\">\r\n      <h2>Contact Us</h2>\r\n      <p style= \"margin-bottom: 0\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\r\n    </div>\r\n    <div class=\"g-12 cols pointer-wrap col-md-12\" style= \"color:#9abfe0\">\r\n      <svg class=\"pointer\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"100%\" height='15vh' viewBox=\"0 0 100 102\" preserveAspectRatio=\"none\">\r\n        <path d=\"M0 0 L50 100 L100 0 Z\"></path>\r\n      </svg>\r\n    </div> -->\r\n    <div class=\"row\">\r\n      <div class=\"col-md-8 col-sm-12\">\r\n        <app-contact-form></app-contact-form>\r\n      </div>\r\n      <div class=\"col-md-4 col-sm-12\">\r\n        <app-contact-map></app-contact-map>\r\n      </div>\r\n    </div>\r\n      <app-contact-messages *ngIf=\"this.authService.isLoggedIn.status\"></app-contact-messages>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<title>Contact - Pontes Network</title>\n<div class=\"background-picture\">\n  <div class=\"filter\">\n      <h2>Contact Us</h2>\n      <div style=\"letter-spacing: 20px; padding-top: 20px; padding-bottom: 40px;\">\n        <i class=\"social fa fa-facebook\" aria-hidden=\"true\"></i>\n        <i class=\"social fa fa-twitter\" aria-hidden=\"true\"></i>\n       <i class=\"social fa fa-linkedin\" aria-hidden=\"true\"></i>\n       <i class=\"social fa fa-envelope-o\" aria-hidden=\"true\"></i>\n      </div>\n  </div>\n\n</div>\n<div class=\"container\">\n  <div class=\"contact\">\n    <!-- <div class=\"g-12 cols contact-blurb\" style=\"background:black; margin-top: 20vh\">\n      <h2>Contact Us</h2>\n      <p style= \"margin-bottom: 0\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n    </div>\n    <div class=\"g-12 cols pointer-wrap col-md-12\" style= \"color:#9abfe0\">\n      <svg class=\"pointer\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"100%\" height='15vh' viewBox=\"0 0 100 102\" preserveAspectRatio=\"none\">\n        <path d=\"M0 0 L50 100 L100 0 Z\"></path>\n      </svg>\n    </div> -->\n    <div class=\"row\">\n      <div class=\"col-md-8 col-sm-12\">\n        <app-contact-form></app-contact-form>\n      </div>\n      <div class=\"col-md-4 col-sm-12\">\n        <app-contact-map></app-contact-map>\n      </div>\n    </div>\n      <app-contact-messages *ngIf=\"this.authService.isLoggedIn.status\"></app-contact-messages>\n  </div>\n</div>\n"
 
 /***/ }),
 
 /***/ 781:
 /***/ (function(module, exports) {
 
-module.exports = "<title>Donation - Pontes Network</title>\r\n\r\n<p style=\"margin-top: 90px\" class= \"text-center\">\r\n\r\n  <a [routerLink]=\"['/about']\" fragment=\"pontesNetwork\" (click)=\"onAnchorClick()\" style= \"color: black\">Anchor</a>\r\n  <br>\r\n  <a [routerLink]=\"['/about']\" fragment=\"pontesNetwork\" (click)=\"gotoHashtag('pontesNetwork')\" style= \"color: black\">Jump to Award anchor </a>\r\n</p>\r\n"
+module.exports = "<title>Donation - Pontes Network</title>\n\n<div class=\"donation-header\">\n  <div class=\"filter\">\n    <div class=\"container\">\n       <p>\n        \"The value of life is not in its duration, but in its donation. You are not important because of how long you live, you are important because of how effective you live.\"\n        <br>\n        <span>Myles Munroe</span>\n      </p> \n    </div>\n      \n  </div>\n\n</div >\n  \n<div class=\"container\" style = \"text-align: center; margin-top: 30px; margin-bottom: 20px\">\n  <h4>Ending poverty begins with you!</h4>\n</div>\n\n<div class=\"container\" style=\"margin-bottom: 40px\">\n  <div class=\"row\">\n    <div class=\"col-12 \" style=\"text-align: center\">\n        <form style= \"display: inline-block\"action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n      \n          <!-- Identify your business so that you can collect the payments. -->\n          <input  type=\"hidden\"  name=\"Pontes Network\"\n              value=\"gopontesnetwork@gmail.com\">\n      \n          <!-- Specify a Donate button. -->\n          <input  type=\"hidden\" name=\"cmd\" value=\"_donations\">\n      \n          <!-- Specify details about the contribution -->\n          <!--type=\"hidden\"-->\n          <input type=\"hidden\" name=\"item_name\" value=\"Friends of the Park\">\n          <input type=\"hidden\" name=\"item_number\" value=\"Fall Cleanup Campaign\">\n          <input type=\"hidden\" name=\"currency_code\" value=\"USD\">\n      \n          <!-- Display the payment button. -->\n          <input type=\"image\" style = \"width: 150px; height: 40px\" name=\"submit\"\n          src=\"https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png\"\n          alt=\"Donate\">\n          <img alt=\"\" width=\"1\" height=\"1\"\n          src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\" >\n      \n      </form>\n\n      \n    </div>\n    \n  </div>\n  \n</div>\n"
 
 /***/ }),
 
 /***/ 782:
 /***/ (function(module, exports) {
 
-module.exports = "<!---- Footer ---->\r\n\r\n<section>\r\n    <div class=\"container\">\r\n        <div class=\"row\">\r\n            <div class=\"col-md-4 wow fadeInLeftSmall\" data-wow-delay=\"0.4s\">\r\n                <h4>Contact Us</h4>\r\n                <p><i class=\"fa fa-home\" aria-hidden=\"true\"></i> 14th Street, San Jose, CA 95144</p>\r\n                <p><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i> info@pontesnetwork.com</p>\r\n                <p><i class=\"fa fa-phone\" aria-hidden=\"true\"></i> +1 222 222 2222</p>\r\n                <p><i class=\"fa fa-globe\" aria-hidden=\"true\"></i> www.pontesnetwork.com</p>\r\n            </div>\r\n            <hr class=\"hidden-md-up\" style=\"width: 90%; background-color: rgba(255, 255, 255, 0.4)\">\r\n            <div class=\" middle col-md-4 wow fadeInUpSmall\" data-wow-delay=\"0.4s\">\r\n              <div class=\"content\">\r\n                <h4>About</h4>\r\n                <p><i class=\"fa fa-square-o\" aria-hidden=\"true\"></i> About Us</p>\r\n                <p><i class=\"fa fa-square-o\" aria-hidden=\"true\"></i> Privacy</p>\r\n                <p><i class=\"fa fa-square-o\" aria-hidden=\"true\"></i> Term & Condition</p>\r\n              </div>\r\n            </div>\r\n            <hr class=\"hidden-md-up\" style=\"width: 90%; background-color: rgba(255, 255, 255, 0.4)\">\r\n            <div class=\" col-md-4 wow fadeInRightSmall\" data-wow-delay=\"0.4s\">\r\n                <h4>Stay in touch</h4>\r\n                <i class=\"social fa fa-facebook\" aria-hidden=\"true\"></i>\r\n                <i class=\"social fa fa-twitter\" aria-hidden=\"true\"></i>\r\n               <i class=\"social fa fa-linkedin\" aria-hidden=\"true\"></i>\r\n               <i class=\"social fa fa-pinterest\" aria-hidden=\"true\"></i>\r\n               <i class=\"social fa fa-youtube\" aria-hidden=\"true\"></i>\r\n               <i class=\"social fa fa-github\" aria-hidden=\"true\"></i><br>\r\n               <input type=\"email\" placeholder=\"Subscribe For Updates\"><button class=\"btn btn-outline-secondary\">Subscribe</button>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    \r\n</section>\r\n"
+module.exports = "<!---- Footer ---->\n\n<section>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-4 wow fadeInLeftSmall\" data-wow-delay=\"0.4s\">\n                <h4>Contact Us</h4>\n                <p><i class=\"fa fa-home\" aria-hidden=\"true\"></i> 14th Street, San Jose, CA 95144</p>\n                <p><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i> info@pontesnetwork.com</p>\n                <p><i class=\"fa fa-phone\" aria-hidden=\"true\"></i> +1 222 222 2222</p>\n                <p><i class=\"fa fa-globe\" aria-hidden=\"true\"></i> www.pontesnetwork.com</p>\n            </div>\n            <hr class=\"hidden-md-up\" style=\"width: 90%; background-color: rgba(255, 255, 255, 0.4)\">\n            <div class=\" middle col-md-4 wow fadeInUpSmall\" data-wow-delay=\"0.4s\">\n              <div class=\"content\">\n                <h4>About</h4>\n                <p><i class=\"fa fa-square-o\" aria-hidden=\"true\"></i> About Us</p>\n                <p><i class=\"fa fa-square-o\" aria-hidden=\"true\"></i> Privacy</p>\n                <p><i class=\"fa fa-square-o\" aria-hidden=\"true\"></i> Term & Condition</p>\n              </div>\n            </div>\n            <hr class=\"hidden-md-up\" style=\"width: 90%; background-color: rgba(255, 255, 255, 0.4)\">\n            <div class=\" col-md-4 wow fadeInRightSmall\" data-wow-delay=\"0.4s\">\n                <h4>Stay in touch</h4>\n                <i class=\"social fa fa-facebook\" aria-hidden=\"true\"></i>\n                <i class=\"social fa fa-twitter\" aria-hidden=\"true\"></i>\n               <i class=\"social fa fa-linkedin\" aria-hidden=\"true\"></i>\n               <i class=\"social fa fa-pinterest\" aria-hidden=\"true\"></i>\n               <i class=\"social fa fa-youtube\" aria-hidden=\"true\"></i>\n               <i class=\"social fa fa-github\" aria-hidden=\"true\"></i><br>\n               <input type=\"email\" placeholder=\"Subscribe For Updates\"><button class=\"btn btn-outline-secondary\">Subscribe</button>\n            </div>\n        </div>\n    </div>\n    \n</section>\n"
 
 /***/ }),
 
 /***/ 783:
 /***/ (function(module, exports) {
 
-module.exports = "<title>Home - Pontes Network</title>\r\n<div>\r\n\r\n  <app-slogan-section></app-slogan-section>\r\n  <app-misson-section></app-misson-section>\r\n  <app-award-section></app-award-section>\r\n  <app-invester-section></app-invester-section>\r\n  <app-image-carousel></app-image-carousel>\r\n  <div class=\"home-contact-form\">\r\n    <div class=\"container\">\r\n        <app-contact-form></app-contact-form>\r\n    </div>\r\n  </div>\r\n  <app-login></app-login>\r\n  <app-logout></app-logout>\r\n</div>\r\n"
+module.exports = "<title>Home - Pontes Network</title>\n<div>\n\n  <app-slogan-section></app-slogan-section>\n  <app-misson-section></app-misson-section>\n  <app-award-section></app-award-section>\n  <app-invester-section></app-invester-section>\n  <app-image-carousel></app-image-carousel>\n  <div class=\"home-contact-form\">\n    <div class=\"container\">\n        <app-contact-form></app-contact-form>\n    </div>\n  </div>\n  <app-login></app-login>\n  <app-logout></app-logout>\n</div>\n"
 
 /***/ }),
 
 /***/ 784:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"outside-carousel\">\n  <h4 style= \"color: white\">Pictures of Pontes Network</h4>\n  <div class=\"carousel\">\n    <a class=\"carousel-item\" href=\"#one!\"><img src=\"./assets/images/carousel1.jpg\"></a>\n    <a class=\"carousel-item\" href=\"#two!\"><img src=\"./assets/images/carousel2.jpg\"></a>\n    <a class=\"carousel-item\" href=\"#three!\"><img src=\"./assets/images/carousel3.jpg\"></a>\n    <a class=\"carousel-item\" href=\"#four!\"><img src=\"./assets/images/carousel4.jpg\"></a>\n    <a class=\"carousel-item\" href=\"#five!\"><img src=\"./assets/images/carousel5.jpg\"></a>\n    <a class=\"carousel-item\" href=\"#six!\"><img src=\"./assets/images/carousel6.jpg\"></a>\n    <a class=\"carousel-item\" href=\"#seven!\"><img src=\"./assets/images/carousel7.jpg\"></a>\n  </div>\n\n</div>\n"
+module.exports = "<div class=\"outside-slide\">\n  <h4 style= \"color: white\">Pictures of Pontes Network</h4>\n  <!--<div class=\"carousel\">-->\n    <!--<a class=\"carousel-item\" href=\"#three!\"><img class=\"materialboxed\" width=\"200\" src=\"./assets/images/carousel3.jpg\"></a>-->\n    <!--<a class=\"carousel-item\" href=\"#five!\"><img class=\"materialboxed\" width=\"200\" src=\"./assets/images/carousel5.jpg\"></a>-->\n    <!--<a class=\"carousel-item\" href=\"#six!\"><img  class=\"materialboxed\" width=\"200\"src=\"./assets/images/carousel6.jpg\"></a>-->\n  <!--</div>-->\n\n\n\n  <div class=\"slider container\">\n    <ul class=\"slides\">\n      <li>\n        <img   src=\"./assets/images/carousel6.jpg\">\n        <!--<div class=\"caption center-align\">-->\n        <!--  <h3>This is our big Tagline!</h3>-->\n        <!--  <h5 class=\"light grey-text text-lighten-3\">Here's our small slogan.</h5>-->\n        <!--</div>-->\n      </li>\n      <li>\n        <img   src=\"./assets/images/carousel3.jpg\">\n        <!--<div class=\"caption left-align\">-->\n        <!--  <h3>Left Aligned Caption</h3>-->\n        <!--  <h5 class=\"light grey-text text-lighten-3\">Here's our small slogan.</h5>-->\n        <!--</div>-->\n      </li>\n      <li>\n        <img  src=\"./assets/images/carousel5.jpg\">\n        <!--<div class=\"caption right-align\">-->\n        <!--  <h3>Right Aligned Caption</h3>-->\n        <!--  <h5 class=\"light grey-text text-lighten-3\">Here's our small slogan.</h5>-->\n        <!--</div>-->\n      </li>\n    </ul>\n  </div>\n      \n</div>\n"
 
 /***/ }),
 
 /***/ 785:
 /***/ (function(module, exports) {
 
-module.exports = "<!--- Team ----->\r\n\r\n\r\n<section class =\"investers\">\r\n    <div class=\"container\">\r\n      <h2 class=\"wow fadeInUp\">Notable Funders</h2>\r\n      <hr style= \"width: 60%\">\r\n        <div class=\"row\">\r\n\r\n            <div class=\"col-md-4  wow fadeInUp\"  data-wow-delay=\"1.6s\">\r\n                <img src=\"./assets/images/Adobe.png\" alt=\"\">\r\n                <h4>Adobe Systems Foundation</h4>\r\n\r\n            </div>\r\n            <div class=\"col-md-4  wow fadeInUp\"  data-wow-delay=\"1.4s\">\r\n                <img src=\"./assets/images/santaclara.png\" alt=\"\">\r\n                <h4>County of Santa Clara</h4>\r\n\r\n            </div>\r\n            <div class=\"col-md-4  wow fadeInUp\" data-wow-delay=\"1.6s\">\r\n                <img src=\"./assets/images/jetblue.png\"  alt=\"\">\r\n                <h4>Jet Blue Airlines</h4>\r\n\r\n            </div>\r\n             <div class=\"col-md-6  wow fadeInLeft\" data-wow-delay=\"1.8s\">\r\n                <img src=\"./assets/images/homedepot.png\"  alt=\"\">\r\n                <h4>The Home Depot Foundation</h4>\r\n\r\n            </div>\r\n             <div class=\"col-md-6  wow fadeInRight\" data-wow-delay=\"1.8s\">\r\n                <img src=\"./assets/images/hilton.png\"  alt=\"\">\r\n                <h4>Hilton Hawaiian Village</h4>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n"
+module.exports = "<!--- Team ----->\n\n\n<section class =\"investers\">\n    <div class=\"container\">\n      <h2 class=\"wow fadeInUp\">Notable Funders</h2>\n      <hr style= \"width: 60%\">\n        <div class=\"row\">\n\n            <div class=\"col-md-4  wow fadeInUp\"  data-wow-delay=\"1.6s\">\n                <img src=\"./assets/images/Adobe.png\" alt=\"\">\n                <h4>Adobe Systems Foundation</h4>\n\n            </div>\n            <div class=\"col-md-4  wow fadeInUp\"  data-wow-delay=\"1.4s\">\n                <img src=\"./assets/images/santaclara.png\" alt=\"\">\n                <h4>County of Santa Clara</h4>\n\n            </div>\n            <div class=\"col-md-4  wow fadeInUp\" data-wow-delay=\"1.6s\">\n                <img src=\"./assets/images/jetblue.png\"  alt=\"\">\n                <h4>Jet Blue Airlines</h4>\n\n            </div>\n             <div class=\"col-md-6  wow fadeInLeft\" data-wow-delay=\"1.8s\">\n                <img src=\"./assets/images/homedepot.png\"  alt=\"\">\n                <h4>The Home Depot Foundation</h4>\n\n            </div>\n             <div class=\"col-md-6  wow fadeInRight\" data-wow-delay=\"1.8s\">\n                <img src=\"./assets/images/hilton.png\"  alt=\"\">\n                <h4>Hilton Hawaiian Village</h4>\n\n            </div>\n        </div>\n    </div>\n</section>\n"
 
 /***/ }),
 
 /***/ 786:
 /***/ (function(module, exports) {
 
-module.exports = "<section>\r\n  <div class=\"mission-content\">\r\n    \r\n    <div class=\"container\">\r\n      <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Our Core Mission</h1>\r\n      <hr style = \"width: 60%\">\r\n      <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">GEO Pontes, Inc. (Pontes Network) is a non-profit, community based organization whose mission is to develop economic stability for individuals and families living in the San Francisco Bay Area, Silicon Valley, Santa Cruz County, and select humanitarian aid projects in Central America and Vietnam.</p>\r\n\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n"
+module.exports = "<section>\n  <div class=\"mission-content\">\n    \n    <div class=\"container\">\n      <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Our Core Mission</h1>\n      <hr style = \"width: 60%\">\n      <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">GEO Pontes, Inc. (Pontes Network) is a non-profit, community based organization whose mission is to develop economic stability for individuals and families living in the San Francisco Bay Area, Silicon Valley, Santa Cruz County, and select humanitarian aid projects in Central America and Vietnam.</p>\n\n    </div>\n  </div>\n</section>\n\n"
 
 /***/ }),
 
 /***/ 787:
 /***/ (function(module, exports) {
 
-module.exports = "\r\n<div id =\"123456\" class=\"fixed-top\">\r\n  <nav>\r\n      <div class=\"container fixed-top\" id=\"1234567\">\r\n        <div class=\"nav-wrapper\">\r\n          <a [routerLink]= \"['/']\" class=\"brand-logo\" style=\"font-size: 1.3em\"><img src=\"./assets/images/pontes_network_logo.png\"></a>\r\n          <a href=\"#\" data-activates=\"mobile-demo\" class=\"button-collapse\"><i class=\"fa fa-bars\" aria-hidden=\"true\" style= \"font-size: 1.8em\"></i></a>\r\n          <ul class=\"right hide-on-med-and-down\">\r\n              <li [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\r\n                <a id =\"01\" class= \"waves-effect waves-light\" [routerLink]= \"['/']\">HOME</a>\r\n              </li>\r\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\r\n                <a  class= \"waves-effect waves-light\" [routerLink]= \"['/programs']\">PROGRAM</a>\r\n              </li>\r\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\r\n                <a class= \"waves-effect waves-light\" [routerLink]= \"['/donation']\">DONATION</a>\r\n              </li>             \r\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\r\n                <a class= \"waves-effect waves-light\" [routerLink]= \"['/checkin']\">CHECK IN</a>\r\n              </li>\r\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\r\n                <a  class= \"waves-effect waves-light\" [routerLink]= \"['/contact']\">CONTACT</a>\r\n              </li>        \r\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\r\n                <a  class= \"waves-effect waves-light\" [routerLink]= \"['/about']\">ABOUT US</a>\r\n              </li>\r\n          </ul>\r\n          <ul class=\"side-nav\" id=\"mobile-demo\">\r\n              <div class=\"background\">\r\n                <img src=\"./assets/images/pontes_network_logo.png\">\r\n              </div>\r\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\r\n                <a  class= \"waves-effect waves-teal\" [routerLink]= \"['/']\"><i class=\"fa fa-home\" aria-hidden=\"true\"></i>HOME</a>\r\n              </li>\r\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\r\n                <a  class= \"waves-effect waves-teal\" [routerLink]= \"['/programs']\"><i class=\"fa fa-rocket\" aria-hidden=\"true\"></i>PROGRAM</a>\r\n              </li>\r\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\r\n                <a class= \"waves-effect waves-teal\"  [routerLink]= \"['/donation']\"><i class=\"fa fa-heart\" aria-hidden=\"true\"></i>DONATION</a>\r\n              </li>\r\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\r\n                <a  class= \"waves-effect waves-teal\" [routerLink]= \"['/contact']\"><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i>CONTACT</a>\r\n              </li>\r\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\r\n                <a  class= \"waves-effect waves-teal\" [routerLink]= \"['/about']\"><i class=\"fa fa-users\" aria-hidden=\"true\"></i>ABOUT US</a>\r\n              </li>\r\n              \r\n              <div class=\"background\">\r\n                <img src=\"https://dncache-mauganscorp.netdna-ssl.com/thumbseg/1395/1395465-bigthumbnail.jpg\">\r\n              </div>\r\n              \r\n          </ul>\r\n        </div>   \r\n      </div>\r\n  </nav>\r\n\r\n</div>\r\n"
+module.exports = "\n<div id =\"123456\" class=\"fixed-top\">\n  <nav>\n      <div class=\"container fixed-top\" id=\"1234567\">\n        <div class=\"nav-wrapper\">\n          <a [routerLink]= \"['/']\" class=\"brand-logo\" style=\"font-size: 1.3em\"><img src=\"./assets/images/pontes_network_logo.png\"></a>\n          <a href=\"#\" data-activates=\"mobile-demo\" class=\"button-collapse\"><i class=\"fa fa-bars\" aria-hidden=\"true\" style= \"font-size: 1.8em\"></i></a>\n          <ul class=\"right hide-on-med-and-down\">\n              <li [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\n                <a id =\"01\" class= \"waves-effect waves-light\" [routerLink]= \"['/']\">HOME</a>\n              </li>\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\n                <a  class= \"waves-effect waves-light\" [routerLink]= \"['/programs']\">PROGRAM</a>\n              </li>\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\n                <a class= \"waves-effect waves-light\" [routerLink]= \"['/donation']\">DONATION</a>\n              </li>             \n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\n                <a class= \"waves-effect waves-light\" [routerLink]= \"['/checkin']\">CHECK IN</a>\n              </li>\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\n                <a  class= \"waves-effect waves-light\" [routerLink]= \"['/contact']\">CONTACT</a>\n              </li>        \n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\n                <a  class= \"waves-effect waves-light\" [routerLink]= \"['/about']\">ABOUT US</a>\n              </li>\n          </ul>\n          <ul class=\"side-nav\" id=\"mobile-demo\">\n              <div class=\"background\">\n                <img src=\"./assets/images/pontes_network_logo.png\">\n              </div>\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\n                <a  class= \"waves-effect waves-teal\" [routerLink]= \"['/']\"><i class=\"fa fa-home\" aria-hidden=\"true\"></i>HOME</a>\n              </li>\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\n                <a  class= \"waves-effect waves-teal\" [routerLink]= \"['/programs']\"><i class=\"fa fa-rocket\" aria-hidden=\"true\"></i>PROGRAM</a>\n              </li>\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\n                <a class= \"waves-effect waves-teal\"  [routerLink]= \"['/donation']\"><i class=\"fa fa-heart\" aria-hidden=\"true\"></i>DONATION</a>\n              </li>\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\n                <a  class= \"waves-effect waves-teal\" [routerLink]= \"['/contact']\"><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i>CONTACT</a>\n              </li>\n              <li  [routerLinkActive] = \"['active']\" [routerLinkActiveOptions] = \"{exact:true}\">\n                <a  class= \"waves-effect waves-teal\" [routerLink]= \"['/about']\"><i class=\"fa fa-users\" aria-hidden=\"true\"></i>ABOUT US</a>\n              </li>\n              \n              <div class=\"background\">\n                <img src=\"https://dncache-mauganscorp.netdna-ssl.com/thumbseg/1395/1395465-bigthumbnail.jpg\">\n              </div>\n              \n          </ul>\n        </div>   \n      </div>\n  </nav>\n\n</div>\n"
 
 /***/ }),
 
 /***/ 788:
 /***/ (function(module, exports) {
 
-module.exports = "<!--- Awards ----->\r\n<div style = \"padding: 33px\" id = \"pontesNetwork\" >\r\n\r\n</div>\r\n<section class=\"header\">\r\n    <div class=\"container\">\r\n      <h2 class=\"wow fadeInUp\">Received Awards</h2>\r\n    </div>\r\n</section>\r\n\r\n<section class =\"awards\">\r\n    <div class=\"container\">\r\n      <!--<h2 class=\"wow fadeInUp\">Awards</h2>-->\r\n      <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\"></p>\r\n        <div class=\"row\">\r\n            <div class=\"col-md-4 wow fadeInLeft\" data-wow-delay=\"1.5s\">\r\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\r\n                <h4>Interagency Council on Homelessness Innovation Award</h4>\r\n                <b>Date<br>Washington DC</b>\r\n                <p>Description of the award</p>\r\n\r\n            </div>\r\n\r\n                  <div class=\"col-md-4 wow fadeInDown\" data-wow-delay=\"1.5s\">\r\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\r\n                <h4>Board Exemplary Leader Award</h4>\r\n                <b>Date<br>California State Bar Association</b>\r\n                <p>Description of the award</p>\r\n\r\n            </div>\r\n                    <div class=\"col-md-4 wow fadeInRight\"  data-wow-delay=\"1.4s\">\r\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\r\n                <h4>Distinguished Alumni Award</h4>\r\n                <b>Date<br>SJSU College of Social Work, San Jose</b>\r\n                <p>Description of the award</p>\r\n\r\n            </div>\r\n                     <div class=\"col-md-4 wow fadeInLeft\" data-wow-delay=\"1.6s\">\r\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\r\n                <h4>Resolution Commending Exemplary Service</h4>\r\n                <b>Date<br>California State Assembly 24th District</b>\r\n                <p>Description of the award</p>\r\n\r\n            </div>\r\n            <div class=\"col-md-4 wow fadeInDown\"  data-wow-delay=\"1.6s\">\r\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\r\n                <h4>Resolution Commending Exemplary Service</h4>\r\n                <b>Date<br>California State Senate Rules Committee</b>\r\n                <p>Description of the Award</p>\r\n\r\n            </div>\r\n            <div class=\"col-md-4 wow fadeInRight\"  data-wow-delay=\"1.6s\">\r\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\r\n                <h4>Resolution Commending Exemplary Service</h4>\r\n                <b>Date<br>California State Senate 13th District </b>\r\n                <p>Description of the Award</p>\r\n\r\n            </div>\r\n\r\n             <div class=\"col-md-4 wow fadeInLeft\"  data-wow-delay=\"1.7s\">\r\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\r\n                <h4>Charles L. Edson Tax Credit Excellence Award</h4>\r\n                <b>Date<br>Washington DC</b>\r\n                <p>Description of the award</p>\r\n\r\n            </div>\r\n             <div class=\"col-md-4 wow fadeInDown\"  data-wow-delay=\"1.7s\">\r\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\r\n                <h4>Don McGaffin Award of Excellence in Housing</h4>\r\n                <b>Date<br>Housing and Community Development, County of Santa Clara</b>\r\n                <p>Description</p>\r\n\r\n            </div>\r\n\r\n                  <div class=\"col-md-4 wow fadeInRight\"  data-wow-delay=\"1.7s\">\r\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\r\n                <h4>Humanitarian of the Year</h4>\r\n                <b>Date<br>Italian American Heritage Foundation, Humanitarian Award City of San Jose</b>\r\n                <p>Description</p>\r\n\r\n            </div>\r\n            <div class=\"col-md wow fadeInDown\"  data-wow-delay=\"1.8s\">\r\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\r\n                <h4>Outstanding Professional Fundraiser</h4>\r\n                <b>Date<br>Association of Fundraising Professionals</b>\r\n                <p>Description of the award</p>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n      <!--<a href=\"#\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>-->\r\n      <!--          <a href=\"#\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>-->\r\n      <!--          <a href=\"#\"><i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i></a>-->\r\n      <!--          <a href=\"#\"><i class=\"fa fa-pinterest\" aria-hidden=\"true\"></i></a>-->\r\n"
+module.exports = "<!--- Awards ----->\n<div style = \"padding: 33px\" id = \"pontesNetwork\" >\n\n</div>\n<section class=\"header\">\n    <div class=\"container\">\n      <h2 class=\"wow fadeInUp\">Received Awards</h2>\n    </div>\n</section>\n\n<section class =\"awards\">\n    <div class=\"container\">\n      <!--<h2 class=\"wow fadeInUp\">Awards</h2>-->\n      <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\"></p>\n        <div class=\"row\">\n            <div class=\"col-md-4 wow fadeInLeft\" data-wow-delay=\"1.5s\">\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\n                <h4>Interagency Council on Homelessness Innovation Award</h4>\n                <b>Date<br>Washington DC</b>\n                <p>Description of the award</p>\n\n            </div>\n\n                  <div class=\"col-md-4 wow fadeInDown\" data-wow-delay=\"1.5s\">\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\n                <h4>Board Exemplary Leader Award</h4>\n                <b>Date<br>California State Bar Association</b>\n                <p>Description of the award</p>\n\n            </div>\n                    <div class=\"col-md-4 wow fadeInRight\"  data-wow-delay=\"1.4s\">\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\n                <h4>Distinguished Alumni Award</h4>\n                <b>Date<br>SJSU College of Social Work, San Jose</b>\n                <p>Description of the award</p>\n\n            </div>\n                     <div class=\"col-md-4 wow fadeInLeft\" data-wow-delay=\"1.6s\">\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\n                <h4>Resolution Commending Exemplary Service</h4>\n                <b>Date<br>California State Assembly 24th District</b>\n                <p>Description of the award</p>\n\n            </div>\n            <div class=\"col-md-4 wow fadeInDown\"  data-wow-delay=\"1.6s\">\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\n                <h4>Resolution Commending Exemplary Service</h4>\n                <b>Date<br>California State Senate Rules Committee</b>\n                <p>Description of the Award</p>\n\n            </div>\n            <div class=\"col-md-4 wow fadeInRight\"  data-wow-delay=\"1.6s\">\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\n                <h4>Resolution Commending Exemplary Service</h4>\n                <b>Date<br>California State Senate 13th District </b>\n                <p>Description of the Award</p>\n\n            </div>\n\n             <div class=\"col-md-4 wow fadeInLeft\"  data-wow-delay=\"1.7s\">\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\n                <h4>Charles L. Edson Tax Credit Excellence Award</h4>\n                <b>Date<br>Washington DC</b>\n                <p>Description of the award</p>\n\n            </div>\n             <div class=\"col-md-4 wow fadeInDown\"  data-wow-delay=\"1.7s\">\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\n                <h4>Don McGaffin Award of Excellence in Housing</h4>\n                <b>Date<br>Housing and Community Development, County of Santa Clara</b>\n                <p>Description</p>\n\n            </div>\n\n                  <div class=\"col-md-4 wow fadeInRight\"  data-wow-delay=\"1.7s\">\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\n                <h4>Humanitarian of the Year</h4>\n                <b>Date<br>Italian American Heritage Foundation, Humanitarian Award City of San Jose</b>\n                <p>Description</p>\n\n            </div>\n            <div class=\"col-md wow fadeInDown\"  data-wow-delay=\"1.8s\">\n                <img class=\"\" src=\"./assets/images/award.png\" alt=\"\">\n                <h4>Outstanding Professional Fundraiser</h4>\n                <b>Date<br>Association of Fundraising Professionals</b>\n                <p>Description of the award</p>\n\n            </div>\n        </div>\n    </div>\n</section>\n\n\n      <!--<a href=\"#\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>-->\n      <!--          <a href=\"#\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>-->\n      <!--          <a href=\"#\"><i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i></a>-->\n      <!--          <a href=\"#\"><i class=\"fa fa-pinterest\" aria-hidden=\"true\"></i></a>-->\n"
 
 /***/ }),
 
 /***/ 789:
 /***/ (function(module, exports) {
 
-module.exports = "<section>\r\n    \r\n    \r\n</section>a<!--- Team ----->\r\n<section class=\"header\">\r\n    <div class=\"container\">\r\n      <h2 class=\"wow fadeInUp\">Our Funders</h2>\r\n    </div>\r\n</section>\r\n\r\n<section class =\"investors\">\r\n    <div class=\"container\">\r\n      \r\n      <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\"></p>\r\n        <div class=\"row\">\r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/Adobe.png\" class=\"\" alt=\"\">\r\n                <h4>Adobe Systems Foundation</h4>\r\n\r\n            </div>\r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/funders.png\" class=\"\" alt=\"\">\r\n                <h4>Randy and Cindy Pond</h4>\r\n                \r\n           \r\n            </div>\r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/family.png\" class=\"\" alt=\"\">\r\n                <h4>George and July Marcus Family Foundation</h4>\r\n                \r\n     \r\n            </div>\r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/funders.png\" class=\"\" alt=\"\">\r\n                <h4>John and Sue Sobrato</h4>\r\n                \r\n            </div>\r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/funders.png\" class=\"\" alt=\"\">\r\n                <h4>John Michael Sobrato</h4>\r\n                \r\n            </div>\r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/santaclara.png\" class=\"\" alt=\"\">\r\n                <h4>County of Santa Clara</h4>\r\n                \r\n            </div>\r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/doe.png\" class=\"\" alt=\"\">\r\n                <h4>Department of Education Title V Grant</h4>\r\n                \r\n            </div>           \r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/homedepot.png\" class=\"\" alt=\"\">\r\n                <h4>The Home Depot Foundation</h4>\r\n                \r\n            </div>      \r\n     \r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/jetblue.png\" class=\"\" alt=\"\">\r\n                <h4>Jet Blue Airlines</h4>\r\n                \r\n            </div>  \r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/alaskanairlines.png\" class=\"\" alt=\"\">\r\n                <h4>Alaskan Airlines</h4>\r\n          \r\n            </div> \r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/hilton.png\" class=\"\" alt=\"\">\r\n                <h4>Hilton Hawaiian Village</h4>\r\n          \r\n            </div> \r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/family.png\" class=\"\" alt=\"\">\r\n                <h4>The Thomas R. Bettencourt Endowment Fund</h4>\r\n          \r\n            </div> \r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/funders.png\" class=\"\" alt=\"\">\r\n                <h4>Rob and Lisa Reckis</h4>\r\n          \r\n            </div> \r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/family.png\" class=\"\" alt=\"\">\r\n                <h4>The Davidson Family Foundation</h4>\r\n          \r\n            </div> \r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/family.png\" class=\"\" alt=\"\">\r\n                <h4>The Huge Stuart Center Charitable Trust</h4>\r\n          \r\n            </div> \r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/family.png\" style=\"\"class=\"\" alt=\"\">\r\n                <h4>Teachers Academy Foundation</h4>\r\n          \r\n            </div> \r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/family.png\" class=\"\" alt=\"\">\r\n                <h4>Milligan Family Foundation</h4>\r\n          \r\n            </div> \r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/funders.png\" class=\"\" alt=\"\">\r\n                <h4>John Bui and Christine Nguyen</h4>\r\n          \r\n            </div> \r\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\r\n                <img src=\"./assets/images/funders.png\" class=\"\" alt=\"\">\r\n                <h4>Barry and Maile Del Buono</h4>\r\n          \r\n            </div> \r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n      <!--<a href=\"#\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>-->\r\n      <!--          <a href=\"#\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>-->\r\n      <!--          <a href=\"#\"><i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i></a>-->\r\n      <!--          <a href=\"#\"><i class=\"fa fa-pinterest\" aria-hidden=\"true\"></i></a>-->\r\n"
+module.exports = "<section>\n    \n    \n</section>a<!--- Team ----->\n<section class=\"header\">\n    <div class=\"container\">\n      <h2 class=\"wow fadeInUp\">Our Funders</h2>\n    </div>\n</section>\n\n<section class =\"investors\">\n    <div class=\"container\">\n      \n      <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\"></p>\n        <div class=\"row\">\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/Adobe.png\" class=\"\" alt=\"\">\n                <h4>Adobe Systems Foundation</h4>\n\n            </div>\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/funders.png\" class=\"\" alt=\"\">\n                <h4>Randy and Cindy Pond</h4>\n                \n           \n            </div>\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/family.png\" class=\"\" alt=\"\">\n                <h4>George and July Marcus Family Foundation</h4>\n                \n     \n            </div>\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/funders.png\" class=\"\" alt=\"\">\n                <h4>John and Sue Sobrato</h4>\n                \n            </div>\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/funders.png\" class=\"\" alt=\"\">\n                <h4>John Michael Sobrato</h4>\n                \n            </div>\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/santaclara.png\" class=\"\" alt=\"\">\n                <h4>County of Santa Clara</h4>\n                \n            </div>\n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/doe.png\" class=\"\" alt=\"\">\n                <h4>Department of Education Title V Grant</h4>\n                \n            </div>           \n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/homedepot.png\" class=\"\" alt=\"\">\n                <h4>The Home Depot Foundation</h4>\n                \n            </div>      \n     \n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/jetblue.png\" class=\"\" alt=\"\">\n                <h4>Jet Blue Airlines</h4>\n                \n            </div>  \n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/alaskanairlines.png\" class=\"\" alt=\"\">\n                <h4>Alaskan Airlines</h4>\n          \n            </div> \n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/hilton.png\" class=\"\" alt=\"\">\n                <h4>Hilton Hawaiian Village</h4>\n          \n            </div> \n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/family.png\" class=\"\" alt=\"\">\n                <h4>The Thomas R. Bettencourt Endowment Fund</h4>\n          \n            </div> \n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/funders.png\" class=\"\" alt=\"\">\n                <h4>Rob and Lisa Reckis</h4>\n          \n            </div> \n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/family.png\" class=\"\" alt=\"\">\n                <h4>The Davidson Family Foundation</h4>\n          \n            </div> \n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/family.png\" class=\"\" alt=\"\">\n                <h4>The Huge Stuart Center Charitable Trust</h4>\n          \n            </div> \n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/family.png\" style=\"\"class=\"\" alt=\"\">\n                <h4>Teachers Academy Foundation</h4>\n          \n            </div> \n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/family.png\" class=\"\" alt=\"\">\n                <h4>Milligan Family Foundation</h4>\n          \n            </div> \n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/funders.png\" class=\"\" alt=\"\">\n                <h4>John Bui and Christine Nguyen</h4>\n          \n            </div> \n            <div class=\"col-md-4 wow fadeInUp\" data-wow-delay=\"1s\">\n                <img src=\"./assets/images/funders.png\" class=\"\" alt=\"\">\n                <h4>Barry and Maile Del Buono</h4>\n          \n            </div> \n        </div>\n    </div>\n</section>\n\n\n      <!--<a href=\"#\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>-->\n      <!--          <a href=\"#\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>-->\n      <!--          <a href=\"#\"><i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i></a>-->\n      <!--          <a href=\"#\"><i class=\"fa fa-pinterest\" aria-hidden=\"true\"></i></a>-->\n"
 
 /***/ }),
 
 /***/ 790:
 /***/ (function(module, exports) {
 
-module.exports = "<p>\r\n  pontes-leadership works!\r\n</p>\r\n"
+module.exports = "<p>\n  pontes-leadership works!\n</p>\n"
 
 /***/ }),
 
 /***/ 791:
 /***/ (function(module, exports) {
 
-module.exports = "\r\n\r\n\r\n\r\n\r\n<section id =\"program1\">\r\n  <div class=\"mission-content-left\">\r\n    \r\n    <div class=\"container\">\r\n      <div class= \"row\">\r\n        \r\n        <div class=\"col-md-6\">\r\n            <img src=\"./assets/images/affordable_student.jpg\">\r\n        </div>\r\n        \r\n        <div class=\"col-md-6\">\r\n            <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Making Affordable Student and Teacher Housing in California</h1>\r\n            <h4 class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">San Jose City College Sociology Club's Microloan Program</h4>\r\n            <p class=\"wow fadeInUp\" data-wow-delay=\"0.8s\" style=\"padding-top:25px\">There are more than 55,000 homeless college students nationwide, including more than 3,000 teachers who cannot afford Bay Area housing in California alone according to federal data reported by California State University and the National Center for Homeless Education, which is funded by the U.S. Department of Education (2016). Stable housing is a key component of healthy living.\r\n            </p>\r\n        </div>\r\n\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n\r\n<section id =\"program2\">\r\n  <div class=\"mission-content-right\">\r\n    \r\n    <div class=\"container\">\r\n      <div class= \"row\">\r\n        <div class=\"col-md-6\">\r\n            <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Promoting Strong Higher Education for Low Income Student</h1>\r\n            <h4 class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">San Jose City College Sociology Club's Microloan Program</h4>\r\n            <p class=\"wow fadeInUp\" data-wow-delay=\"0.8s\" style=\"padding-top:25px\">The Sociology Club at San Jose City College’s microloan program lends students emergency cash. The Club wanted to fill a gap funding that wasn’t being addressed. An ‘A’ student and club member missed an important sociology exam because his car broke down, and he did not have funds for the repair. As a result he dropped out of college to work full time. Club members learned of this incident and began reading about microfinance and wondered whether such a program could be useful at the College.\r\n            </p>\r\n        </div>\r\n        <div class=\"col-md-6\">\r\n            <img src=\"./assets/images/low_income_student.jpg\">\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n\r\n<section id =\"program3\">\r\n  <div class=\"mission-content-left\">\r\n    \r\n    <div class=\"container\">\r\n      <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Silicon Valley Technology Internship Program</h1>\r\n      <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\" style=\"padding-top:25px\">Pontes Network is driven to promote race gender, and class in Technology Driven Companies and San Jose City College. There is a known lack of diversity within STEM-related and technology-driven companies.</p>\r\n\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n<section id =\"program2\">\r\n  <div class=\"mission-content-right\">\r\n    \r\n    <div class=\"container\">\r\n      <div class= \"row\">\r\n        <div class=\"col-md-6\">\r\n            <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Preventing Chronic Homelessness</h1>\r\n            <!--<h4 class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">San Jose City College Sociology Club's Microloan Program</h4>-->\r\n            <p class=\"wow fadeInUp\" data-wow-delay=\"0.8s\" style=\"padding-top:25px\">Pontes Network will increase the housing necessary to make chronically homeless individuals stable, and make available life saving services on their behalf.</p>\r\n        </div>\r\n        <div class=\"col-md-6\">\r\n            <img src=\"./assets/images/low_income_student.jpg\">\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n<section id =\"program1\">\r\n  <div class=\"mission-content-left\">\r\n    \r\n    <div class=\"container\">\r\n      <div class= \"row\">\r\n      \r\n        <div class=\"col-md-6\">\r\n            <img src=\"./assets/images/low_income_student.jpg\">\r\n        </div>\r\n      \r\n        <div class=\"col-md-6\">\r\n            <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Preventing the ravages of Diabetes</h1>\r\n            \r\n            <p class=\"wow fadeInUp\" data-wow-delay=\"0.8s\" style=\"padding-top:25px\">Pontes Network is tackling these challenges head on through diabetes screening, detection, and diabetes family education through the Roberto Clemente Clinic in Nicaragua.</p>\r\n        </div>\r\n      \r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n<section id =\"program2\">\r\n  <div class=\"mission-content-right\">\r\n    \r\n    <div class=\"container\">\r\n      <div class= \"row\">\r\n        <div class=\"col-md-6\">\r\n            <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Construction of Hospitals and Strengthening Medical Service</h1>\r\n            <h4 class=\"wow fadeInUp\" data-wow-delay=\"0.4s\" style=\"margin-top:10px\">Sapa Private Hospital, Vietnam</h4>\r\n            <p class=\"wow fadeInUp\" data-wow-delay=\"0.8s\" style=\"padding-top:25px\">The focus of the project is to increase medical care with the construction of a new hospital with the capability of providing essential health services.</p>\r\n        </div>\r\n        <div class=\"col-md-6\">\r\n            <img src=\"./assets/images/low_income_student.jpg\">\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n\r\n<section id =\"program1\">\r\n  <div class=\"mission-content-left\">\r\n    \r\n    <div class=\"container\">\r\n      <div class= \"row\">\r\n       \r\n        <div class=\"col-md-6\">\r\n            <img src=\"./assets/images/low_income_student.jpg\">\r\n        </div>\r\n       \r\n        <div class=\"col-md-6\">\r\n            <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Preserving Historical Silicon Valley Homes</h1>\r\n            \r\n            <p class=\"wow fadeInUp\" data-wow-delay=\"0.8s\" style=\"padding-top:25px\">California's wealth of historic buildings and neighborhoods is mactched by few other states. These artifacts reflect its rich multicultural history, from earliest times to the present. Pontes Network protects our historic assets, while moving forward with today's needs.</p>\r\n        </div>\r\n       \r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n\r\n<!--<section class =\"morePrograms\">-->\r\n<!--   <div class=\"container\">-->\r\n<!--  <div class=\"row\">-->\r\n\r\n<!--      <div class=\" col-md-4  wow fadeInLeft\"  data-wow-delay=\"1.6s\">-->\r\n<!--          <img class=\"rounded-circle\" src=\"\" alt=\"\">-->\r\n<!--          <h4>Preventing Chronic Homelessness</h4>-->\r\n<!--          <p>Pontes Network will increase the housing necessary to make chronically homeless individuals stable, and make available life saving services on their behalf.</p>-->\r\n<!--          <a href=\"http://google.com\">Learn more</a>-->\r\n<!--      </div>-->\r\n<!--      <div class=\" col-md-4  wow fadeInLeft\"  data-wow-delay=\"1.6s\">-->\r\n<!--          <img class=\"rounded-circle\" src=\"\" alt=\"\">-->\r\n<!--          <h4>Improving good health care for the most vulnerable communities</h4>-->\r\n<!--          <p>Pontes Network will increase the housing necessary to make chronically homeless individuals stable, and make available life saving services on their behalf.</p>-->\r\n<!--          <a href=\"https://preview.c9users.io/pathfinder0115/pontes-network/angular-src/src/app/prevent-chronic-homelessness/prevent-chronic-homelessness.component.html?_c9_id=livepreview0&_c9_host=https://ide.c9.io\">Learn more</a>-->\r\n<!--      </div>      -->\r\n<!--      <div class=\" col-md-4  wow fadeInLeft\"  data-wow-delay=\"1.6s\">-->\r\n<!--          <img class=\"rounded-circle\" src=\"\" alt=\"\">-->\r\n<!--          <h4>Improving good health care for the most vulnerable communities</h4>-->\r\n<!--          <p>Pontes Network will increase the housing necessary to make chronically homeless individuals stable, and make available life saving services on their behalf.</p>-->\r\n<!--          <a href=\"https://preview.c9users.io/pathfinder0115/pontes-network/angular-src/src/app/prevent-chronic-homelessness/prevent-chronic-homelessness.component.html?_c9_id=livepreview0&_c9_host=https://ide.c9.io\">Learn more</a>-->\r\n<!--      </div>    -->\r\n<!--      <div class=\" col-md-4  wow fadeInLeft\"  data-wow-delay=\"1.6s\">-->\r\n<!--          <img class=\"rounded-circle\" src=\"\" alt=\"\">-->\r\n<!--          <h4>Construction of Hospital and Strentghening Medical Services</h4>-->\r\n<!--          <p>Pontes Network will increase the housing necessary to make chronically homeless individuals stable, and make available life saving services on their behalf.</p>-->\r\n<!--          <a href=\"https://preview.c9users.io/pathfinder0115/pontes-network/angular-src/src/app/prevent-chronic-homelessness/prevent-chronic-homelessness.component.html?_c9_id=livepreview0&_c9_host=https://ide.c9.io\">Learn more</a>-->\r\n<!--      </div>    -->\r\n<!--   </div>-->\r\n<!--    </div>-->\r\n<!--</section>-->\r\n\r\n\r\n"
+module.exports = "\n\n\n\n\n<section id =\"program1\">\n  <div class=\"mission-content\">\n    \n    <div class=\"container\">\n      <div class= \"row\">\n        \n        <div class=\"col-md-6\">\n            <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\"> Affordable Student and Teacher Housing in California</h1>\n            <h4 class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">San Jose City College Sociology Club's Microloan Program</h4>\n            <p class=\"wow fadeInUp\" data-wow-delay=\"0.8s\" style=\"padding-top:25px\">There are more than 55,000 homeless college students nationwide, including more than 3,000 teachers who cannot afford Bay Area housing in California alone according to federal data reported by California State University and the National Center for Homeless Education, which is funded by the U.S. Department of Education (2016). Stable housing is a key component of healthy living.\n            </p>\n        <div class=\"carousel\">\n          \n            <a class=\"carousel-item\" href=\"#three!\"><img src=\"./assets/images/carousel3.jpg\"></a>\n            <a class=\"carousel-item\" href=\"#five!\"><img src=\"./assets/images/carousel5.jpg\"></a>\n            <a class=\"carousel-item\" href=\"#six!\"><img src=\"./assets/images/carousel6.jpg\"></a>\n\n          </div>\n          \n          <button>View More</button>\n\n   </div>\n\n      </div>\n    </div>\n  </div>\n</section>\n\n\n<section id =\"program2\">\n  <div class=\"mission-content\">\n    \n    <div class=\"container\">\n      <div class= \"row\">\n        <div class=\"col-md-6\">\n            <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Promoting Strong Higher Education for Low Income Student</h1>\n            <h4 class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">San Jose City College Sociology Club's Microloan Program</h4>\n            <p class=\"wow fadeInUp\" data-wow-delay=\"0.8s\" style=\"padding-top:25px\">The Sociology Club at San Jose City College’s microloan program lends students emergency cash. The Club wanted to fill a gap funding that wasn’t being addressed. An ‘A’ student and club member missed an important sociology exam because his car broke down, and he did not have funds for the repair. As a result he dropped out of college to work full time. Club members learned of this incident and began reading about microfinance and wondered whether such a program could be useful at the College.\n            </p>\n    \n         <div class=\"carousel\">\n          \n            <a class=\"carousel-item\" href=\"#one!\"><img src=\"./assets/images/IMG_0983.JPG\"></a>\n            <a class=\"carousel-item\" href=\"#two!\"><img src=\"./assets/images/IMG_0988.JPG\"></a>\n            <a class=\"carousel-item\" href=\"#three!\"><img src=\"./assets/images/IMG_1033.JPG\"></a>\n\n          </div>\n          \n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n\n\n<section id =\"program3\">\n  <div class=\"mission-content\">\n    \n    <div class=\"container\">\n              <div class=\"col-md-6\">\n\n      <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Silicon Valley Technology Internship Program</h1>\n      <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\" style=\"padding-top:25px\">Pontes Network is driven to promote race gender, and class in Technology Driven Companies and San Jose City College. There is a known lack of diversity within STEM-related and technology-driven companies.</p>\n    \n    <div class=\"carousel\">\n          \n       <a class=\"carousel-item\" href=\"#one!\"><img src=\"./assets/images/IMG_0983.JPG\"></a>\n       <a class=\"carousel-item\" href=\"#two!\"><img src=\"./assets/images/IMG_0988.JPG\"></a>\n       <a class=\"carousel-item\" href=\"#three!\"><img src=\"./assets/images/IMG_1033.JPG\"></a>\n    \n    </div>\n    </div>\n    </div>\n  \n    \n  </div>\n</section>\n\n<section id =\"program2\">\n  <div class=\"mission-content\">\n    \n    <div class=\"container\">\n      <div class= \"row\">\n        <div class=\"col-md-6\">\n            <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Preventing Chronic Homelessness</h1>\n            <p class=\"wow fadeInUp\" data-wow-delay=\"0.8s\" style=\"padding-top:25px\">Pontes Network will increase the housing necessary to make chronically homeless individuals stable, and make available life saving services on their behalf.</p>\n            \n            <div class=\"carousel\">\n          \n               <a class=\"carousel-item\" href=\"#one!\"><img src=\"./assets/images/IMG_0983.JPG\"></a>\n               <a class=\"carousel-item\" href=\"#two!\"><img src=\"./assets/images/IMG_0988.JPG\"></a>\n               <a class=\"carousel-item\" href=\"#three!\"><img src=\"./assets/images/IMG_1033.JPG\"></a>\n               \n            </div>\n        \n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n\n<section id =\"program1\">\n  <div class=\"mission-content\">\n    \n    <div class=\"container\">\n      <div class= \"row\">\n        <div class=\"col-md-6\">\n          \n            <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Improving Healthcare for the most Vulnerable Communities</h1>\n            <h4 class=\"wow fadeInUp\" data-wow-delay=\"0.4s\" style=\"margin-top:10px\">Nicaragua, Central America</h4>\n            <p class=\"wow fadeInUp\" data-wow-delay=\"0.8s\" style=\"padding-top:25px\">In Nicaragua, where diabetes is the fourth leading cause of death, 1 out of 10 adults suffer from the disease. By volunteerism, donated medical supplies by MedShare, San Leandro, California, Pontes Network is tackling these challenges head on through diabetes screening, detection, and family education through the Roberto Clemente Clinic in Nicaragua.</p>\n            \n            <div class=\"carousel\">\n                \n               <a class=\"carousel-item\" href=\"#one!\"><img src=\"./assets/images/IMG_0983.JPG\"></a>\n               <a class=\"carousel-item\" href=\"#two!\"><img src=\"./assets/images/IMG_0988.JPG\"></a>\n               <a class=\"carousel-item\" href=\"#three!\"><img src=\"./assets/images/IMG_1033.JPG\"></a>\n        \n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n\n<section id =\"program2\">\n  <div class=\"mission-content\">\n    \n    <div class=\"container\">\n      <div class= \"row\">\n        <div class=\"col-md-6\">\n            <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Construction of Hospitals and Strengthening Medical Service</h1>\n            <h4 class=\"wow fadeInUp\" data-wow-delay=\"0.4s\" style=\"margin-top:10px\">Sapa Private Hospital, Vietnam</h4>\n            <p class=\"wow fadeInUp\" data-wow-delay=\"0.8s\" style=\"padding-top:25px\">The focus of the project is to increase medical care with the construction of a new hospital with the capability of providing essential health services.</p>\n        \n            <div class=\"carousel\">\n          \n             <a class=\"carousel-item\" href=\"#one!\"><img src=\"./assets/images/IMG_0983.JPG\"></a>\n             <a class=\"carousel-item\" href=\"#two!\"><img src=\"./assets/images/IMG_0988.JPG\"></a>\n             <a class=\"carousel-item\" href=\"#three!\"><img src=\"./assets/images/IMG_1033.JPG\"></a>\n          \n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n\n\n<section id =\"program1\">\n  <div class=\"mission-content\">\n    \n    <div class=\"container\">\n      <div class= \"row\">\n       \n        <div class=\"col-md-6\">\n            <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Preserving Historical Silicon Valley Homes</h1>\n            \n            <p class=\"wow fadeInUp\" data-wow-delay=\"0.8s\" style=\"padding-top:25px\">California's wealth of historic buildings and neighborhoods is mactched by few other states. These artifacts reflect its rich multicultural history, from earliest times to the present. Pontes Network protects our historic assets, while moving forward with today's needs.</p>\n\n           <div class=\"carousel\">\n          \n       <a class=\"carousel-item\" href=\"#one!\"><img src=\"./assets/images/IMG_0983.JPG\"></a>\n       <a class=\"carousel-item\" href=\"#two!\"><img src=\"./assets/images/IMG_0988.JPG\"></a>\n       <a class=\"carousel-item\" href=\"#three!\"><img src=\"./assets/images/IMG_1033.JPG\"></a>\n    \n    </div>\n            </div>\n\n      </div>\n    </div>\n  </div>\n</section>\n\n"
 
 /***/ }),
 
 /***/ 792:
 /***/ (function(module, exports) {
 
-module.exports = "<section>\r\n  <div class=\"mission-content\">\r\n    \r\n    <div class=\"container\">\r\n      <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Our Programs</h1>\r\n      <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">There is now growing interest in investment in housing, promoting community college students with technology company internship and global health for impoverished countries can lead to cost savings in other service areas.</p>\r\n\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n\r\n"
+module.exports = "<section>\n  <div class=\"mission-content\">\n    \n    <div class=\"container\">\n      <h1 class=\"wow fadeInUp\" data-wow-delay=\"0s\">Our Programs</h1>\n      <p class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">There is now growing interest in investment in housing, promoting community college students with technology company internship and global health for impoverished countries can lead to cost savings in other service areas.</p>\n\n    </div>\n  </div>\n</section>\n\n\n"
 
 /***/ }),
 
 /***/ 793:
 /***/ (function(module, exports) {
 
-module.exports = "<div>\r\n    <title>Programs - Pontes Network</title>\r\n    <app-programTop> </app-programTop>\r\n    <app-FirstProgram></app-FirstProgram>\r\n  \r\n</div>"
+module.exports = "<div>\n    <title>Programs - Pontes Network</title>\n    <app-programTop> </app-programTop>\n    <app-FirstProgram></app-FirstProgram>\n  \n</div>"
 
 /***/ }),
 
 /***/ 794:
 /***/ (function(module, exports) {
 
-module.exports = "\r\n\r\n<section #sologanSection (window:scroll)=\"onWindowScroll($event, sologanSection, downArrow)\">\r\n    <div class=\"bg-wrap\">\r\n        <div class=\"bg slogan\" style=\"background-image: url('./assets/images/slogan3.jpg');\"> \r\n        <!--http://weebly.com/uploads/8/9/3/1/89318564/background-images/239996890.jpg'-->\r\n          <div>\r\n            <h1 class=\" wow fadeInUp\">Pontes Network</h1>\r\n            <p  class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">Make the World a Better Place</p>             \r\n          </div>\r\n          <particles [style]=\"myStyle\" [width]=\"width\" [height]=\"height\" [params]=\"myParams\"></particles>\r\n\r\n        </div>\r\n    </div>\r\n    \r\n    <!------------------------------------------------------------>\r\n    \r\n    <div #downArrow class=\"downArrow bounce\">\r\n      <img width=\"40\" height=\"40\"  src=\"./assets/images/down-arrow.svg\">\r\n      </div>\r\n    <!------------------------------------------------------------>\r\n\r\n</section>\r\n\r\n"
+module.exports = "\n\n<section #sologanSection (window:scroll)=\"onWindowScroll($event, sologanSection, downArrow)\">\n    <div class=\"bg-wrap\">\n        <div class=\"bg slogan\" style=\"background-image: url('./assets/images/slogan3.jpg');\"> \n        <!--http://weebly.com/uploads/8/9/3/1/89318564/background-images/239996890.jpg'-->\n          <div>\n            <h1 class=\" wow fadeInUp\">Pontes Network</h1>\n            <p  class=\"wow fadeInUp\" data-wow-delay=\"0.4s\">Make the World a Better Place</p>             \n          </div>\n          <particles [style]=\"myStyle\" [width]=\"width\" [height]=\"height\" [params]=\"myParams\"></particles>\n\n        </div>\n    </div>\n    \n    <!------------------------------------------------------------>\n    \n    <div #downArrow class=\"downArrow bounce\">\n      <img width=\"40\" height=\"40\"  src=\"./assets/images/down-arrow.svg\">\n      </div>\n    <!------------------------------------------------------------>\n\n</section>\n\n"
 
 /***/ }),
 
@@ -2440,7 +2441,7 @@ var AuthService = (function () {
     return AuthService;
     var _a;
 }());
-//# sourceMappingURL=C:/Users/Phan/Desktop/Pontes-master/angular-src/src/auth.service.js.map
+//# sourceMappingURL=/home/ubuntu/workspace/angular-src/src/auth.service.js.map
 
 /***/ })
 

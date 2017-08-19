@@ -1,0 +1,18 @@
+.donation-header{
+    background: url("./assets/images/donation-header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    .filter{
+        background-color: rgba(41, 144, 234, 0.4);
+    }
+    p{
+        font-size: 1.3em;
+        padding-top: 120px;
+        padding-bottom:50px;
+        color:white;
+        span{
+            font-style: italic;
+        }
+    }
+}
