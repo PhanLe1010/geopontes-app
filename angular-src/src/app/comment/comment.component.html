@@ -1,38 +1,46 @@
 <!-- comments list of a letter -->
 <h5>List of Comments</h5>
-  <div class="comment">
+<p style ="text-style: italic">{{loadingCommentsError}}</p>
+  <div class="comment" *ngFor = "let comment of comments">
     <i class="fa fa-user-circle-o" aria-hidden="true" style="color: #0275d8"></i>
-      <span style="color: #0275d8">&nbsp; Peter</span> <span class="pull-right" style="opacity: 0.6; font-size: 0.9em">Aug 16, 2017</span> <br>
-      <span>Email@gmail.com</span>
+      <span style="color: #0275d8">&nbsp; {{comment.name}}</span> <span class="pull-right" style="opacity: 0.6; font-size: 0.9em">{{comment.date.toDateString()}}</span> <br>
+      <span>{{comment.email}}</span>
     <p>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
-    </p>
-  </div>
-  <div class="comment">
-    <i class="fa fa-user-circle-o" aria-hidden="true" style="color: #0275d8"></i>
-      <span style="color: #0275d8"> &nbsp;Peter</span> <span class="pull-right" style="opacity: 0.6; font-size: 0.9em">Aug 16, 2017</span> <br>
-      <span>Email@gmail.com</span>
-    <p>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
-    </p>
-  </div>
-  <div class="comment">
-    <i class="fa fa-user-circle-o" aria-hidden="true" style="color: #0275d8"></i>
-      <span style="color: #0275d8">&nbsp;Peter</span> <span class="pull-right" style="opacity: 0.6; font-size: 0.9em">Aug 16, 2017</span> <br>
-      <span>Email@gmail.com</span>
-    <p>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+      {{comment.content}}
+      <span class="pull-right">
+        <button type="button"
+                *ngIf="this.authService.isLoggedIn.status"
+                id='{{comment.commentId}}'
+                class ="btn btn-flat btn-outline-danger btn-sm"
+                style="font-size: 0.8em; height: 20px "
+                (click) ="onDelete($event)">Delete</button>
+      </span>
     </p>
   </div>
 
 
 
-
+  <!-- Notification -->
+  <div class="modal fade" id="commentNotification" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h5>{{notificationOfSendingComment}}</h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="waves-effect waves-light btn-flat btn-sm btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!--  The new comment form -->
-<!-- <div style="text-align: center" style = "max-width: 600px">
-  <h5 style="color: #2990ea">Leave A Comment</h5>
-    <form [formGroup] ="newCommentForm" (ngSubmit)="onSubmit()" style="padding-top: 30px">
+<div style="text-align: center" style = "max-width: 600px">
+  <a class="waves-effect waves-teal btn-flat"
+     style="color: #0275d8"
+     (click) ="onClickNewCommentForm()">Leave A Comment</a>
+
+    <form id= "newCommentForm" [ngClass] = "{hide: this.clickNewCommentbutton}" [formGroup] ="newCommentForm" (ngSubmit)="onSubmit()" style="padding-top: 30px">
       <div class="row">
         <div class="input-field col col-lg-6 col-sm-12 col-12">
           <i class="fa fa-user-o prefix" aria-hidden="true"></i>
@@ -54,11 +62,11 @@
           <i class="fa fa-pencil-square-o prefix" aria-hidden="true"></i>
           <textarea id="textarea1"
                     class="materialize-textarea"
-                    formControlName = "message"></textarea>
+                    formControlName = "content"></textarea>
           <label for="textarea1" data-error = "Please enter your message">Textarea</label>
         </div>
       </div>
-      <button [disabled]="!contactForm.valid"
+      <button [disabled]="!newCommentForm.valid"
               type="submit"
               class="waves-effect waves-light btn btn-flat btn-outline-primary" >
               <i *ngIf="loadingIcon" style ="font-size: 0.8em"class="fa fa-refresh fa-spin"></i>
@@ -68,4 +76,4 @@
 
 
 
-</div> -->
+</div>

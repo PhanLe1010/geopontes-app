@@ -2,6 +2,8 @@ import { Component, OnInit, Input} from '@angular/core';
 
 import { Letter } from '../../models/letter.model';
 import { LetterService } from '../letter.service';
+import { AuthService } from '../../auth/auth.service';
+
 
 
 declare var jquery:any;
@@ -18,7 +20,7 @@ export class LetterComponent implements OnInit {
 
   @Input() letter: Letter;
 
-  constructor(private letterService: LetterService) { }
+  constructor(private letterService: LetterService, private authService: AuthService) { }
 
   ngOnInit() {
     $('.collapsible').collapsible();

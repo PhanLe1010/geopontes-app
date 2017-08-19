@@ -1,9 +1,11 @@
 var express = require('express');
 var router = express.Router();
 var ContactMessage = require("../models/contactMessage");
+var middlewareObject = require("../middleware/middleware");
+
 
 // API for getting contact messages
-router.get('/contact_message', function(req, res, next){
+router.get('/contact_message',middlewareObject.isLoggedIn, function(req, res, next){
   ContactMessage.find()
                 .exec(function(err, messages){
                   if(err){

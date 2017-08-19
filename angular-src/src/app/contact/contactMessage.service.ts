@@ -14,7 +14,10 @@ export class ContactMessageService{
 
   //Hookup to the get messages API
   getContactMessages(){
-    return this.http.get('http://localhost:3000/contact_message')
+    const token = localStorage.getItem('token')
+            ? '?token=' + localStorage.getItem('token')
+            : '';
+    return this.http.get('http://localhost:3000/contact_message'+ token)
                     .map((response: Response) => {
                                                       return response.json().obj;
                                                   })

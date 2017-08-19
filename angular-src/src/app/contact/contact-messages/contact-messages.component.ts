@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ContactMessageService } from '../contactMessage.service';
 
+
 @Component({
   selector: 'app-contact-messages',
   templateUrl: './contact-messages.component.html',

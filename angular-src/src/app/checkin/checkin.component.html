@@ -35,6 +35,10 @@
 
 
 <div class="container" style="margin-top: 40px">
-  <a class="waves-effect waves-teal btn-flat" style="color: #0275d8">Add a new Letter</a>
-  <app-new-letter-from></app-new-letter-from>
+  <a class="waves-effect waves-teal btn-flat"
+     style="color: #0275d8; text-transform: lowercase;"
+     (click) ="onClickNewLetterButton()">
+     Add a new monthly letter (Admin only)
+  </a>
+  <app-new-letter-from [ngClass] = "{hide: this.clickNewLetterButton}"></app-new-letter-from>
 </div>

@@ -30,6 +30,6 @@
         <app-contact-map></app-contact-map>
       </div>
     </div>
-      <app-contact-messages></app-contact-messages>
+      <app-contact-messages *ngIf="this.authService.isLoggedIn.status"></app-contact-messages>
   </div>
 </div>

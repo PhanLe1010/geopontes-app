@@ -37,6 +37,7 @@ var indexRoutes = require("./routes/indexRoutes");
 var contactMessage = require("./routes/contact_message");
 var letter = require("./routes/letter");
 var user = require("./routes/user");
+var letterComment = require("./routes/letter_comment");
 
 // Connect To Database
 mongoose.connect(config.database);
@@ -64,6 +65,7 @@ app.use(indexRoutes);
 app.use(contactMessage);
 app.use(letter);
 app.use(user);
+app.use(letterComment);
 
 //When the users request to any route, we will pass the controler to our Agular app
 app.use('*', function (req, res) {

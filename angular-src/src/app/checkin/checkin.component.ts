@@ -13,6 +13,7 @@ import { Letter } from '../models/letter.model';
 export class CheckinComponent implements OnInit {
   letters: Letter[] = [];
   loadingLettersError: string = "";
+  clickNewLetterButton: boolean = true;
 
   constructor( private letterService: LetterService ) { }
 
@@ -25,6 +26,10 @@ export class CheckinComponent implements OnInit {
                 console.log(error)
           }
         )
+  }
+
+  onClickNewLetterButton(){
+    this.clickNewLetterButton = !this.clickNewLetterButton
   }
 
 }

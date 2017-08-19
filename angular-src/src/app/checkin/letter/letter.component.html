@@ -14,10 +14,11 @@
             <span>{{letter.date.toDateString()}}</span> <br>
             <span style="color: #0275d8">{{letter.signature}},</span>
             <span class="pull-right">
-              <button type="button" class ="btn btn-flat btn-outline-danger btn-sm" (click) ="onDelete()">Delete</button>
+              <button *ngIf="this.authService.isLoggedIn.status" type="button" class ="btn btn-flat btn-outline-danger btn-sm" (click) ="onDelete()">Delete</button>
             </span>
             <span class="pull-right">
               <button type="button"
+                      *ngIf="this.authService.isLoggedIn.status"
                       class ="btn btn-flat btn-outline-primary btn-sm"
                       data-toggle="modal" data-target="#editLetterModal" (click) = "onEdit()">Edit</button>&nbsp;
             </span>
@@ -26,7 +27,7 @@
 
           <!--Comment component-->
           <hr>
-          <app-comment  *ngIf = "loadComment" ></app-comment>
+          <app-comment [letterId] = "letter._id" *ngIf = "loadComment" ></app-comment>
       </div>
 
     </li>

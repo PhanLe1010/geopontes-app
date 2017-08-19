@@ -1,8 +1,8 @@
 var express = require("express");
 var router = express.Router();
 var Letter = require("../models/letter");
-
-
+var Comment = require("../models/comment");
+var middlewareObject = require("../middleware/middleware");
 // API for getting letter
 router.get('/letter', function(req, res, next){
   Letter.find()
@@ -22,7 +22,7 @@ router.get('/letter', function(req, res, next){
 });
 
 // API for posting a letter
-router.post('/letter', function(req, res, next){
+router.post('/letter',middlewareObject.isLoggedIn, function(req, res, next){
   var letter = new Letter({
     title: req.body.title,
     content: req.body.content,
@@ -43,8 +43,8 @@ router.post('/letter', function(req, res, next){
   })
 })
 
-// API for posting a letter
-router.patch('/letter/:letter_id', function(req, res, next){
+// API for editing a letter
+router.patch('/letter/:letter_id',middlewareObject.isLoggedIn, function(req, res, next){
   const editedLetter = {
     title: req.body.title,
     content: req.body.content,
@@ -65,7 +65,8 @@ router.patch('/letter/:letter_id', function(req, res, next){
 });
 })
 
-router.delete('/letter/:letter_id', function(req, res, next){
+// API for deleting a letter
+router.delete('/letter/:letter_id',middlewareObject.isLoggedIn, function(req, res, next){
 
   Letter.findByIdAndRemove(req.params.letter_id, function(err, deletedLetter){
     if(err){
@@ -74,6 +75,10 @@ router.delete('/letter/:letter_id', function(req, res, next){
                   error: err
               });
     }else{
+      //delete letter's comments array
+      deletedLetter.comments.forEach(function(commentId){
+        Comment.findByIdAndRemove(commentId.toString(), function(){});
+      });
       res.status(200).json({
                 message: 'Deleted letter',
                 obj: deletedLetter

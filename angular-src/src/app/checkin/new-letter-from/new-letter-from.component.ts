@@ -42,7 +42,7 @@ export class NewLetterFromComponent implements OnInit {
       if(this.letter){
         // Edit
         this.letter.title =  this.newLetterForm.value.title;        //should not do this- upadte the page before data come back.
-        this.letter.content= this.newLetterForm.value.content;      //we should show the data that come back from the serve 
+        this.letter.content= this.newLetterForm.value.content;      //we should show the data that come back from the serve
         this.letter.signature = this.newLetterForm.value.signature; //because some time we can not save it
 
         this.letterService.updateLetter(this.letter).subscribe(
@@ -78,7 +78,7 @@ export class NewLetterFromComponent implements OnInit {
                  $('#textarea1').trigger('autoresize');
               },
               error => {
-                this.notificationOfSendingLetter = "Oops! There was an error. Could not send the letter. Try again!";
+                this.notificationOfSendingLetter = "Oops! There was an error. Could not post the letter. You might need to login width admin account to do that!";
                 this.loadingIcon = false;
                 $('#letterNotification').modal('show')
               }
