@@ -589,7 +589,7 @@ $dropdown-header-color:          $gray-light !default;
 // of components dependent on the z-axis and are designed to all work together.
 
 $zindex-dropdown-backdrop:  9900 !default;
-$zindex-navbar:             10000 !default;
+$zindex-navbar:             5 !default;
 $zindex-dropdown:           10000 !default;
 $zindex-fixed:              10300 !default;
 $zindex-sticky:             10300!default;

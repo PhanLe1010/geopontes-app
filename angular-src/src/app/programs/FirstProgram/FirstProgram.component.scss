@@ -1,37 +1,38 @@
-section{
-   background: url('./assets/images/mission.jpg');
-
-  height: 70vh;
-  background-size: cover;
-  background-position: center;
-
-  .mission-content {
-    background-color: rgba(41, 144, 234, 0.5);
-    padding-top: 10vh;
-    padding-left: 25vh;
-    text-align: center;
-    color: white;
-    height: 100%;   
-  }
-  
-  .carousel {
-    width: 500px;
-  }
-
+//change navbar to static
+.scrolled{
+    background: white;
+    height: 66px;
+}
+.linkScrolled{
+    color: #2990ea;
+}
+.containerScrolled{
+    border: none ! important;
 }
 
 
-// .carousel img{
-//   width: 500px;
-//   height: 250px;
-// }
+
+section{
+  .mission-content {
+    padding-top: 40px;
+    height: 100%;
+  }
+
+}
 
 #program1{
-  background: #071b26 !important;
+  background: white !important;
+  color: black;
 }
-#program3{
-  background: #071b26 !important;
+
+#program2, #program4, #program6{
+  background-color: #546e7a;   //rgba(41, 144, 234, 1)
+  color: white;
 }
+#program3, #program7{
+  background: white !important;
+}
+
 
 .morePrograms{
     background: white;
@@ -80,14 +81,7 @@ section{
     height: 20%;
 }
 
-.head {
-    
-  //   background: white;
-  // background-size: cover;
-  // background-position: center;
-  //   padding-top: 60px;
-  //   // padding-bottom: 50px;
-  //   text-align: center;
-  //   color: black;
-  //   height: 20%;
+img{
+  width: 100%;
+  height: auto;
 }
