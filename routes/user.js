@@ -6,25 +6,25 @@ var User = require("../models/user");
 
 
 
-router.post('/user', function (req, res, next) {
-    var user = new User({
-        email: req.body.email,
-        password: bcrypt.hashSync(req.body.password, 10),
-        fullName: req.body.fullName
-    });
-    user.save(function(err, result) {
-        if (err) {
-            return res.status(500).json({
-                title: 'An error occurred',
-                error: err
-            });
-        }
-        res.status(201).json({
-            message: 'User created',
-            obj: result
-        });
-    });
-});
+// router.post('/user', function (req, res, next) {
+//     var user = new User({
+//         email: req.body.email,
+//         password: bcrypt.hashSync(req.body.password, 10),
+//         fullName: req.body.fullName
+//     });
+//     user.save(function(err, result) {
+//         if (err) {
+//             return res.status(500).json({
+//                 title: 'An error occurred',
+//                 error: err
+//             });
+//         }
+//         res.status(201).json({
+//             message: 'User created',
+//             obj: result
+//         });
+//     });
+// });
 
 
 router.post('/user/signin', function(req, res, next) {
