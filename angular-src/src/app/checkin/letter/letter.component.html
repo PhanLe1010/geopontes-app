@@ -8,8 +8,7 @@
       </div>
 
       <div class="collapsible-body">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          {{letter.content}}
+          <div [innerHTML]="this.letter.content"></div>
           <p style="padding-top:20px">
             <span>{{letter.date.toDateString()}}</span> <br>
             <span style="color: #0275d8">{{letter.signature}},</span>
