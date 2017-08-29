@@ -78,3 +78,6 @@ input.ng-touched.ng-invalid{
      outline: none;
      background-color: transparent;
    }
+   .slides, .slider {
+     max-width: 650px !important;
+   }
